@@ -1,0 +1,1430 @@
+26 | <!DOCTYPE html>
+<html lang="cs" data-ng-app="bzrApp" data-ng-controller="GlobalCtrl" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">    
+    <head>
+        <meta name="author" content="bezrealitky.cz" >
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <meta charset="utf-8">
+        <meta name="description" content="Nemovitosti bez provize: Pronájem bytu v Praha bez realitky - stránka č. 1" >
+        <meta name="keywords" content="Nemovitosti bez provize: Pronájem bytu v Praha bez realitky - stránka č. 1" >
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" >
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta http-equiv="x-xrds-location" content="https://www.bezrealitky.cz/mojeidxml"/>
+
+        
+        
+        
+        <title>Nemovitosti bez provize: Pronájem bytu v Praha bez realitky - stránka č. 1 - bezrealitky.cz</title>
+
+        <link rel="stylesheet" type="text/css" href="/web/compress/style.css?v=20161018" media="all" >
+        <!-- favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <!-- ---- -->
+
+                    <link rel="canonical" href="https://www.bezrealitky.cz/vypis/nabidka-pronajem/byt/praha?priceFrom=&priceTo=11111&order=time_order_desc" />
+                        <link rel="next" href="https://www.bezrealitky.cz/vypis/nabidka-pronajem/byt/praha?priceFrom=&priceTo=11111&order=time_order_desc&page=2" />
+            
+        
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.25&amp;libraries=places,geometry&amp;key=AIzaSyBD7gPVhOPp9P9x7ds0iJaMcn-SiWdvyH8&amp;language=cs&amp;region=CZ"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script type="text/javascript" src="/web/compress/script.js?v=20161018" async></script>
+
+        <script type="text/javascript">
+            var BZR_URL_BASE = "//www.bezrealitky.cz/";
+        </script>
+
+        <script type="text/javascript">
+                    var countReportError = 0;
+                            function reportError(message, file, lineNumber) {
+                                var url = "//www.bezrealitky.cz/api/utils/js-log";
+                                var values = {"message": message, "file": file, "lineNumber": lineNumber, "location": window.location.href};
+
+                                var forms = {};
+
+                                var inputs = $("input, select, textarea");
+
+                                for (var index = 0, length = inputs.length; index < length; index++) {
+                                    var element = $(inputs[index]);
+                                    forms[element.attr("name")] = element.val();
+
+                                    if (element.attr("type") === "checkbox") {
+                                        forms[element.attr("name")] = element.prop("checked");
+                                    }
+                                }
+
+                                values.forms = forms;
+
+                                values.browser = navigator.userAgent;
+                                if (countReportError < 10) {
+//                            $.post(url, values);
+                                }
+                                countReportError++;
+                            };
+
+                    window.onerror = function (message, file, lineNumber) {
+                        reportError(message, file, lineNumber);
+                    };
+        </script>
+        <script type="text/javascript">
+                    var visitorId = 'Yim2JzK--JOo14CZKELoWK41AXjc_ObwUT1-E3cfPwo'
+        </script>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+                    !function (f, b, e, v, n, t, s) {
+                        if (f.fbq)
+                            return;
+                        n = f.fbq = function () {
+                            n.callMethod ?
+                                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                        };
+                        if (!f._fbq)
+                            f._fbq = n;
+                        n.push = n;
+                        n.loaded = !0;
+                        n.version = '2.0';
+                        n.queue = [];
+                        t = b.createElement(e);
+                        t.async = !0;
+                        t.src = v;
+                        s = b.getElementsByTagName(e)[0];
+                        s.parentNode.insertBefore(t, s)
+                    }(window,
+                            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+                    fbq('init', '941921975933987');
+                    fbq('track', "PageView");
+        </script>
+
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=941921975933987&ev=PageView&noscript=1"
+                   /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <script>
+                dataLayer = [];
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-TTKNMZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>(function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start':
+                                new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src =
+                            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-TTKNMZ');</script>
+    <!-- End Google Tag Manager -->
+
+    
+        <!-- (C)2000-2015 Gemius SA - gemiusAudience / bezrealitky.cz / Ostatni -->
+        <script type="text/javascript">
+                            <!--//--><![CDATA[//><!--
+        var pp_gemius_identifier = '.F3glHw893Utgx0ddubFTHZGTBN10oRJTrxG9VY8EXL.n7';
+                                    // lines below shouldn't be edited
+                                            function gemius_pending(i) {
+                                                window[i] = window[i] || function () {
+                                                    var x = window[i + '_pdata'] = window[i + '_pdata'] || [];
+                                                    x[x.length] = arguments;
+                                                };
+                                            };
+                                    gemius_pending('gemius_hit');
+                                    gemius_pending('gemius_event');
+                                    gemius_pending('pp_gemius_hit');
+                                    gemius_pending('pp_gemius_event');
+                                    (function (d, t) {
+                                        try {
+                                            var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol === 'https:') ? 's' : '');
+                                            gt.setAttribute('async', 'async');
+                                            gt.setAttribute('defer', 'defer');
+                                            gt.src = l + '://spir.hit.gemius.pl/xgemius.js';
+                                            s.parentNode.insertBefore(gt, s);
+                                        } catch (e) {
+                                        }
+                                    })(document, 'script');
+                                    //--><!]]>
+        </script>
+
+                <div class="leaderBoard bb">
+            <!-- iBILLBOARD Ad Server one2many Pozice: go.eu.bbelements.com bezrealitky(23932) / Ostatní stránky(2) / Leaderboard(1) / Leaderboard 745x100(1)-->
+            <!-- HowTo: Place this code into the html page where the ad should appear. -->
+            <div id='bmone2n-23932.2.1.1'>
+                <noscript><div style='display:inline'><a href='https://go.eu.bbelements.com/please/redirect/23932/2/1/1/'><img src='https://go.eu.bbelements.com/please/showit/23932/2/1/1/?typkodu=img&keywords=' style='border-width:0' alt='' /></a></div></noscript>
+            </div>
+            <div class="bbInfotext"><img src="/img/bb-info.png" alt=""></div>
+        </div>
+
+    <div class="page-header">
+        <a href="/">
+            <img class="logo" src="/web/img/logo.png" alt="bezrealitky.cz" />
+        </a>
+
+        <nav class="ng-hide" data-ng-show="isLoaded">
+            <ul>
+                <li class="menu"><a class="btn btn-transparent" href data-bzr-mobile-menu>{{authUser.user.firstname|| "Menu"}}</a></li>
+                <li class="items-box">
+                    <ul class="items">
+                        <li>
+                            <a href="/vlozit-inzerat">Vložit inzerát</a>
+                        </li>
+                        <li>
+                            <a href="/vyhledat?reload=1477030863">Vyhledat</a>
+                        </li>
+                        <li>
+                            <a href="/vypis">Výpis inzerátů</a>
+                        </li>
+                        <li>
+                            <a href="/informace/cenik-sluzeb">Ceník</a>
+                        </li>
+                        <li>
+                            <a href="/centrum-sluzeb?reload=1477030863">Služby</a>
+                        </li>
+                        <li>
+                            <a class="user-login" href="" data-ng-if="!authUser || !authUser.status" data-ng-click="showLoginPopup()">Přihlásit se</a>
+                            <a class="user-login" href="/moje-bezrealitky/rady-a-tipy" data-ng-if="authUser && authUser.status">{{authUser.user.firstname}} {{authUser.user.lastname}}</a>
+                        </li>
+                        <li data-ng-if="authUser && authUser.status">
+                            <a class="user-logout" href="/odhlaseni">Odhlášení</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="clr"></div>
+    </div>
+
+
+    
+<section class="page-list" data-ng-controller="ListCtrl">
+    <div class="search-form" data-bzr-search-form>
+        <form id="listForm" action="/vypis" method="GET">
+            <select name="advertoffertype" class="offertype" data-ng-model="filter.advertoffertype">
+                                    <option value="nabidka-prodej">Nabídka prodej</option>
+                                        <option value="nabidka-pronajem">Nabídka pronájem</option>
+                                        <option value="nabidka-spolubydleni">Nabídka spolubydlení</option>
+                                        <option value="poptavka-prodej">Poptávka prodej</option>
+                                        <option value="poptavka-pronajem">Poptávka pronájem</option>
+                                        <option value="poptavka-spolubydleni">Poptávka spolubydlení</option>
+                                </select>
+
+            <select name="estatetype" class="estatetype" data-ng-model="filter.estatetype" data-ng-change="getVisibleElements()">
+                                    <option value="byt">Byt</option>
+                                        <option value="dum">Dům</option>
+                                        <option value="pozemek">Pozemek</option>
+                                        <option value="garaz">Garáž</option>
+                                        <option value="kancelar">Kancelář</option>
+                                        <option value="nebytovy-prostor">Nebytový prostor</option>
+                                        <option value="rekreacni-objekt">Rekreační objekt</option>
+                                    <option data-ng-if="filter.estatetype === 'vse'" value="vse">-- Vše --</option>
+            </select>
+
+            <select name="region" class="region" data-ng-model="filter.region" data-ng-change="changeRegion(filter)">
+                <option value="">-- Všechny kraje --</option>
+                <option value="zahranicni">-- Zahraniční inzeráty --</option>
+                                    <option value="jihocesky-kraj">Jihočeský kraj</option>
+                                        <option value="jihomoravsky-kraj">Jihomoravský kraj</option>
+                                        <option value="karlovarsky-kraj">Karlovarský kraj</option>
+                                        <option value="kraj-vysocina">Kraj Vysočina</option>
+                                        <option value="kralovehradecky-kraj">Královéhradecký kraj</option>
+                                        <option value="liberecky-kraj">Liberecký kraj</option>
+                                        <option value="moravskoslezsky-kraj">Moravskoslezský kraj</option>
+                                        <option value="olomoucky-kraj">Olomoucký kraj</option>
+                                        <option value="pardubicky-kraj">Pardubický kraj</option>
+                                        <option value="plzensky-kraj">Plzeňský kraj</option>
+                                        <option value="praha">Praha</option>
+                                        <option value="stredocesky-kraj">Středočeský kraj</option>
+                                        <option value="ustecky-kraj">Ústecký kraj</option>
+                                        <option value="zlinsky-kraj">Zlínský kraj</option>
+                                </select>
+
+            <select name="county" class="county" data-ng-model="filter.county" data-ng-if="showCountySelect">
+                <option value="" >-- Všechny okresy --</option>
+                                    <option value="okres-benesov" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Benešov</option>
+                                                <option value="okres-beroun" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Beroun</option>
+                                                <option value="okres-blansko" data-ng-if="!filter.region || filter.region == 'jihomoravsky-kraj'">okres Blansko</option>
+                                                <option value="okres-brno-mesto" data-ng-if="!filter.region || filter.region == 'jihomoravsky-kraj'">okres Brno-město</option>
+                                                <option value="okres-brno-venkov" data-ng-if="!filter.region || filter.region == 'jihomoravsky-kraj'">okres Brno-venkov</option>
+                                                <option value="okres-bruntal" data-ng-if="!filter.region || filter.region == 'moravskoslezsky-kraj'">okres Bruntál</option>
+                                                <option value="okres-breclav" data-ng-if="!filter.region || filter.region == 'jihomoravsky-kraj'">okres Břeclav</option>
+                                                <option value="okres-ceska-lipa" data-ng-if="!filter.region || filter.region == 'liberecky-kraj'">okres Česká Lípa</option>
+                                                <option value="okres-ceske-budejovice" data-ng-if="!filter.region || filter.region == 'jihocesky-kraj'">okres České Budějovice</option>
+                                                <option value="okres-cesky-krumlov" data-ng-if="!filter.region || filter.region == 'jihocesky-kraj'">okres Český Krumlov</option>
+                                                <option value="okres-decin" data-ng-if="!filter.region || filter.region == 'ustecky-kraj'">okres Děčín</option>
+                                                <option value="okres-domazlice" data-ng-if="!filter.region || filter.region == 'plzensky-kraj'">okres Domažlice</option>
+                                                <option value="okres-frydek-mistek" data-ng-if="!filter.region || filter.region == 'moravskoslezsky-kraj'">okres Frýdek-Místek</option>
+                                                <option value="okres-havlickuv-brod" data-ng-if="!filter.region || filter.region == 'kraj-vysocina'">okres Havlíčkův Brod</option>
+                                                <option value="okres-hodonin" data-ng-if="!filter.region || filter.region == 'jihomoravsky-kraj'">okres Hodonín</option>
+                                                <option value="okres-hradec-kralove" data-ng-if="!filter.region || filter.region == 'kralovehradecky-kraj'">okres Hradec Králové</option>
+                                                <option value="okres-cheb" data-ng-if="!filter.region || filter.region == 'karlovarsky-kraj'">okres Cheb</option>
+                                                <option value="okres-chomutov" data-ng-if="!filter.region || filter.region == 'ustecky-kraj'">okres Chomutov</option>
+                                                <option value="okres-chrudim" data-ng-if="!filter.region || filter.region == 'pardubicky-kraj'">okres Chrudim</option>
+                                                <option value="okres-jablonec-nad-nisou" data-ng-if="!filter.region || filter.region == 'liberecky-kraj'">okres Jablonec nad Nisou</option>
+                                                <option value="okres-jesenik" data-ng-if="!filter.region || filter.region == 'olomoucky-kraj'">okres Jeseník</option>
+                                                <option value="okres-jicin" data-ng-if="!filter.region || filter.region == 'kralovehradecky-kraj'">okres Jičín</option>
+                                                <option value="okres-jihlava" data-ng-if="!filter.region || filter.region == 'kraj-vysocina'">okres Jihlava</option>
+                                                <option value="okres-jindrichuv-hradec" data-ng-if="!filter.region || filter.region == 'jihocesky-kraj'">okres Jindřichův Hradec</option>
+                                                <option value="okres-karlovy-vary" data-ng-if="!filter.region || filter.region == 'karlovarsky-kraj'">okres Karlovy Vary</option>
+                                                <option value="okres-karvina" data-ng-if="!filter.region || filter.region == 'moravskoslezsky-kraj'">okres Karviná</option>
+                                                <option value="okres-kladno" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Kladno</option>
+                                                <option value="okres-klatovy" data-ng-if="!filter.region || filter.region == 'plzensky-kraj'">okres Klatovy</option>
+                                                <option value="okres-kolin" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Kolín</option>
+                                                <option value="okres-kromeriz" data-ng-if="!filter.region || filter.region == 'zlinsky-kraj'">okres Kroměříž</option>
+                                                <option value="okres-kutna-hora" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Kutná Hora</option>
+                                                <option value="okres-liberec" data-ng-if="!filter.region || filter.region == 'liberecky-kraj'">okres Liberec</option>
+                                                <option value="okres-litomerice" data-ng-if="!filter.region || filter.region == 'ustecky-kraj'">okres Litoměřice</option>
+                                                <option value="okres-louny" data-ng-if="!filter.region || filter.region == 'ustecky-kraj'">okres Louny</option>
+                                                <option value="okres-melnik" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Mělník</option>
+                                                <option value="okres-mlada-boleslav" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Mladá Boleslav</option>
+                                                <option value="okres-most" data-ng-if="!filter.region || filter.region == 'ustecky-kraj'">okres Most</option>
+                                                <option value="okres-nachod" data-ng-if="!filter.region || filter.region == 'kralovehradecky-kraj'">okres Náchod</option>
+                                                <option value="okres-novy-jicin" data-ng-if="!filter.region || filter.region == 'moravskoslezsky-kraj'">okres Nový Jičín</option>
+                                                <option value="okres-nymburk" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Nymburk</option>
+                                                <option value="okres-olomouc" data-ng-if="!filter.region || filter.region == 'olomoucky-kraj'">okres Olomouc</option>
+                                                <option value="okres-opava" data-ng-if="!filter.region || filter.region == 'moravskoslezsky-kraj'">okres Opava</option>
+                                                <option value="okres-ostrava-mesto" data-ng-if="!filter.region || filter.region == 'moravskoslezsky-kraj'">okres Ostrava-město</option>
+                                                <option value="okres-pardubice" data-ng-if="!filter.region || filter.region == 'pardubicky-kraj'">okres Pardubice</option>
+                                                <option value="okres-pelhrimov" data-ng-if="!filter.region || filter.region == 'kraj-vysocina'">okres Pelhřimov</option>
+                                                <option value="okres-pisek" data-ng-if="!filter.region || filter.region == 'jihocesky-kraj'">okres Písek</option>
+                                                <option value="okres-plzen-jih" data-ng-if="!filter.region || filter.region == 'plzensky-kraj'">okres Plzeň-jih</option>
+                                                <option value="okres-plzen-mesto" data-ng-if="!filter.region || filter.region == 'plzensky-kraj'">okres Plzeň-město</option>
+                                                <option value="okres-plzen-sever" data-ng-if="!filter.region || filter.region == 'plzensky-kraj'">okres Plzeň-sever</option>
+                                                <option value="okres-praha-vychod" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Praha-východ</option>
+                                                <option value="okres-praha-zapad" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Praha-západ</option>
+                                                <option value="okres-prachatice" data-ng-if="!filter.region || filter.region == 'jihocesky-kraj'">okres Prachatice</option>
+                                                <option value="okres-prostejov" data-ng-if="!filter.region || filter.region == 'olomoucky-kraj'">okres Prostějov</option>
+                                                <option value="okres-prerov" data-ng-if="!filter.region || filter.region == 'olomoucky-kraj'">okres Přerov</option>
+                                                <option value="okres-pribram" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Příbram</option>
+                                                <option value="okres-rakovnik" data-ng-if="!filter.region || filter.region == 'stredocesky-kraj'">okres Rakovník</option>
+                                                <option value="okres-rokycany" data-ng-if="!filter.region || filter.region == 'plzensky-kraj'">okres Rokycany</option>
+                                                <option value="okres-rychnov-nad-kneznou" data-ng-if="!filter.region || filter.region == 'kralovehradecky-kraj'">okres Rychnov nad Kněžnou</option>
+                                                <option value="okres-semily" data-ng-if="!filter.region || filter.region == 'liberecky-kraj'">okres Semily</option>
+                                                <option value="okres-sokolov" data-ng-if="!filter.region || filter.region == 'karlovarsky-kraj'">okres Sokolov</option>
+                                                <option value="okres-strakonice" data-ng-if="!filter.region || filter.region == 'jihocesky-kraj'">okres Strakonice</option>
+                                                <option value="okres-svitavy" data-ng-if="!filter.region || filter.region == 'pardubicky-kraj'">okres Svitavy</option>
+                                                <option value="okres-sumperk" data-ng-if="!filter.region || filter.region == 'olomoucky-kraj'">okres Šumperk</option>
+                                                <option value="okres-tabor" data-ng-if="!filter.region || filter.region == 'jihocesky-kraj'">okres Tábor</option>
+                                                <option value="okres-tachov" data-ng-if="!filter.region || filter.region == 'plzensky-kraj'">okres Tachov</option>
+                                                <option value="okres-teplice" data-ng-if="!filter.region || filter.region == 'ustecky-kraj'">okres Teplice</option>
+                                                <option value="okres-trutnov" data-ng-if="!filter.region || filter.region == 'kralovehradecky-kraj'">okres Trutnov</option>
+                                                <option value="okres-trebic" data-ng-if="!filter.region || filter.region == 'kraj-vysocina'">okres Třebíč</option>
+                                                <option value="okres-uherske-hradiste" data-ng-if="!filter.region || filter.region == 'zlinsky-kraj'">okres Uherské Hradiště</option>
+                                                <option value="okres-usti-nad-labem" data-ng-if="!filter.region || filter.region == 'ustecky-kraj'">okres Ústí nad Labem</option>
+                                                <option value="okres-usti-nad-orlici" data-ng-if="!filter.region || filter.region == 'pardubicky-kraj'">okres Ústí nad Orlicí</option>
+                                                <option value="okres-vsetin" data-ng-if="!filter.region || filter.region == 'zlinsky-kraj'">okres Vsetín</option>
+                                                <option value="okres-vyskov" data-ng-if="!filter.region || filter.region == 'jihomoravsky-kraj'">okres Vyškov</option>
+                                                <option value="okres-zlin" data-ng-if="!filter.region || filter.region == 'zlinsky-kraj'">okres Zlín</option>
+                                                <option value="okres-znojmo" data-ng-if="!filter.region || filter.region == 'jihomoravsky-kraj'">okres Znojmo</option>
+                                                <option value="okres-zdar-nad-sazavou" data-ng-if="!filter.region || filter.region == 'kraj-vysocina'">okres Žďár nad Sázavou</option>
+                                                <option value="praha-bechovice" data-ng-if="!filter.region || filter.region == 'praha'">Běchovice</option>
+                                                <option value="praha-benice" data-ng-if="!filter.region || filter.region == 'praha'">Benice</option>
+                                                <option value="praha-bohnice" data-ng-if="!filter.region || filter.region == 'praha'">Bohnice</option>
+                                                <option value="praha-branik" data-ng-if="!filter.region || filter.region == 'praha'">Braník</option>
+                                                <option value="praha-brevnov" data-ng-if="!filter.region || filter.region == 'praha'">Břevnov</option>
+                                                <option value="praha-brezineves" data-ng-if="!filter.region || filter.region == 'praha'">Březiněves</option>
+                                                <option value="praha-bubenec" data-ng-if="!filter.region || filter.region == 'praha'">Bubeneč</option>
+                                                <option value="praha-cakovice" data-ng-if="!filter.region || filter.region == 'praha'">Čakovice</option>
+                                                <option value="praha-cerny-most" data-ng-if="!filter.region || filter.region == 'praha'">Černý Most</option>
+                                                <option value="praha-cimice" data-ng-if="!filter.region || filter.region == 'praha'">Čimice</option>
+                                                <option value="praha-dablice" data-ng-if="!filter.region || filter.region == 'praha'">Ďáblice</option>
+                                                <option value="praha-dejvice" data-ng-if="!filter.region || filter.region == 'praha'">Dejvice</option>
+                                                <option value="praha-dolni-chabry" data-ng-if="!filter.region || filter.region == 'praha'">Dolní Chabry</option>
+                                                <option value="praha-dolni-mecholupy" data-ng-if="!filter.region || filter.region == 'praha'">Dolní Měcholupy</option>
+                                                <option value="praha-dolni-pocernice" data-ng-if="!filter.region || filter.region == 'praha'">Dolní Počernice</option>
+                                                <option value="praha-dubec" data-ng-if="!filter.region || filter.region == 'praha'">Dubeč</option>
+                                                <option value="praha-haje" data-ng-if="!filter.region || filter.region == 'praha'">Háje</option>
+                                                <option value="praha-hajek-u-uhrinevsi" data-ng-if="!filter.region || filter.region == 'praha'">Hájek u Uhříněvsi</option>
+                                                <option value="praha-hloubetin" data-ng-if="!filter.region || filter.region == 'praha'">Hloubětín</option>
+                                                <option value="praha-hlubocepy" data-ng-if="!filter.region || filter.region == 'praha'">Hlubočepy</option>
+                                                <option value="praha-hodkovicky" data-ng-if="!filter.region || filter.region == 'praha'">Hodkovičky</option>
+                                                <option value="praha-holesovice" data-ng-if="!filter.region || filter.region == 'praha'">Holešovice</option>
+                                                <option value="praha-holyne" data-ng-if="!filter.region || filter.region == 'praha'">Holyně</option>
+                                                <option value="praha-horni-mecholupy" data-ng-if="!filter.region || filter.region == 'praha'">Horní Měcholupy</option>
+                                                <option value="praha-horni-pocernice" data-ng-if="!filter.region || filter.region == 'praha'">Horní Počernice</option>
+                                                <option value="praha-hostavice" data-ng-if="!filter.region || filter.region == 'praha'">Hostavice</option>
+                                                <option value="praha-hostivar" data-ng-if="!filter.region || filter.region == 'praha'">Hostivař</option>
+                                                <option value="praha-hradcany" data-ng-if="!filter.region || filter.region == 'praha'">Hradčany</option>
+                                                <option value="praha-hrdlorezy" data-ng-if="!filter.region || filter.region == 'praha'">Hrdlořezy</option>
+                                                <option value="praha-chodov" data-ng-if="!filter.region || filter.region == 'praha'">Chodov</option>
+                                                <option value="praha-cholupice" data-ng-if="!filter.region || filter.region == 'praha'">Cholupice</option>
+                                                <option value="praha-jinonice" data-ng-if="!filter.region || filter.region == 'praha'">Jinonice</option>
+                                                <option value="praha-josefov" data-ng-if="!filter.region || filter.region == 'praha'">Josefov</option>
+                                                <option value="praha-kamyk" data-ng-if="!filter.region || filter.region == 'praha'">Kamýk</option>
+                                                <option value="praha-karlin" data-ng-if="!filter.region || filter.region == 'praha'">Karlín</option>
+                                                <option value="praha-kbely" data-ng-if="!filter.region || filter.region == 'praha'">Kbely</option>
+                                                <option value="praha-klanovice" data-ng-if="!filter.region || filter.region == 'praha'">Klánovice</option>
+                                                <option value="praha-kobylisy" data-ng-if="!filter.region || filter.region == 'praha'">Kobylisy</option>
+                                                <option value="praha-kolodeje" data-ng-if="!filter.region || filter.region == 'praha'">Koloděje</option>
+                                                <option value="praha-kolovraty" data-ng-if="!filter.region || filter.region == 'praha'">Kolovraty</option>
+                                                <option value="praha-komorany" data-ng-if="!filter.region || filter.region == 'praha'">Komořany</option>
+                                                <option value="praha-kosire" data-ng-if="!filter.region || filter.region == 'praha'">Košíře</option>
+                                                <option value="praha-kralovice" data-ng-if="!filter.region || filter.region == 'praha'">Královice</option>
+                                                <option value="praha-krc" data-ng-if="!filter.region || filter.region == 'praha'">Krč</option>
+                                                <option value="praha-kreslice" data-ng-if="!filter.region || filter.region == 'praha'">Křeslice</option>
+                                                <option value="praha-kunratice" data-ng-if="!filter.region || filter.region == 'praha'">Kunratice</option>
+                                                <option value="praha-kyje" data-ng-if="!filter.region || filter.region == 'praha'">Kyje</option>
+                                                <option value="praha-lahovice" data-ng-if="!filter.region || filter.region == 'praha'">Lahovice</option>
+                                                <option value="praha-letnany" data-ng-if="!filter.region || filter.region == 'praha'">Letňany</option>
+                                                <option value="praha-lhotka" data-ng-if="!filter.region || filter.region == 'praha'">Lhotka</option>
+                                                <option value="praha-liben" data-ng-if="!filter.region || filter.region == 'praha'">Libeň</option>
+                                                <option value="praha-liboc" data-ng-if="!filter.region || filter.region == 'praha'">Liboc</option>
+                                                <option value="praha-libus" data-ng-if="!filter.region || filter.region == 'praha'">Libuš</option>
+                                                <option value="praha-lipany" data-ng-if="!filter.region || filter.region == 'praha'">Lipany</option>
+                                                <option value="praha-lipence" data-ng-if="!filter.region || filter.region == 'praha'">Lipence</option>
+                                                <option value="praha-lochkov" data-ng-if="!filter.region || filter.region == 'praha'">Lochkov</option>
+                                                <option value="praha-lysolaje" data-ng-if="!filter.region || filter.region == 'praha'">Lysolaje</option>
+                                                <option value="praha-mala-chuchle" data-ng-if="!filter.region || filter.region == 'praha'">Malá Chuchle</option>
+                                                <option value="praha-mala-strana" data-ng-if="!filter.region || filter.region == 'praha'">Malá Strana</option>
+                                                <option value="praha-malesice" data-ng-if="!filter.region || filter.region == 'praha'">Malešice</option>
+                                                <option value="praha-michle" data-ng-if="!filter.region || filter.region == 'praha'">Michle</option>
+                                                <option value="praha-miskovice" data-ng-if="!filter.region || filter.region == 'praha'">Miškovice</option>
+                                                <option value="praha-modrany" data-ng-if="!filter.region || filter.region == 'praha'">Modřany</option>
+                                                <option value="praha-motol" data-ng-if="!filter.region || filter.region == 'praha'">Motol</option>
+                                                <option value="praha-nebusice" data-ng-if="!filter.region || filter.region == 'praha'">Nebušice</option>
+                                                <option value="praha-nedvezi-u-rican" data-ng-if="!filter.region || filter.region == 'praha'">Nedvězí u Říčan</option>
+                                                <option value="praha-nove-mesto" data-ng-if="!filter.region || filter.region == 'praha'">Nové Město</option>
+                                                <option value="praha-nusle" data-ng-if="!filter.region || filter.region == 'praha'">Nusle</option>
+                                                <option value="praha-petrovice" data-ng-if="!filter.region || filter.region == 'praha'">Petrovice</option>
+                                                <option value="praha-pisnice" data-ng-if="!filter.region || filter.region == 'praha'">Písnice</option>
+                                                <option value="praha-pitkovice" data-ng-if="!filter.region || filter.region == 'praha'">Pitkovice</option>
+                                                <option value="praha-podoli" data-ng-if="!filter.region || filter.region == 'praha'">Podolí</option>
+                                                <option value="praha-prosek" data-ng-if="!filter.region || filter.region == 'praha'">Prosek</option>
+                                                <option value="praha-predni-kopanina" data-ng-if="!filter.region || filter.region == 'praha'">Přední Kopanina</option>
+                                                <option value="praha-radlice" data-ng-if="!filter.region || filter.region == 'praha'">Radlice</option>
+                                                <option value="praha-radotin" data-ng-if="!filter.region || filter.region == 'praha'">Radotín</option>
+                                                <option value="praha-ruzyne" data-ng-if="!filter.region || filter.region == 'praha'">Ruzyně</option>
+                                                <option value="praha-reporyje" data-ng-if="!filter.region || filter.region == 'praha'">Řeporyje</option>
+                                                <option value="praha-repy" data-ng-if="!filter.region || filter.region == 'praha'">Řepy</option>
+                                                <option value="praha-satalice" data-ng-if="!filter.region || filter.region == 'praha'">Satalice</option>
+                                                <option value="praha-sedlec" data-ng-if="!filter.region || filter.region == 'praha'">Sedlec</option>
+                                                <option value="praha-slivenec" data-ng-if="!filter.region || filter.region == 'praha'">Slivenec</option>
+                                                <option value="praha-smichov" data-ng-if="!filter.region || filter.region == 'praha'">Smíchov</option>
+                                                <option value="praha-sobin" data-ng-if="!filter.region || filter.region == 'praha'">Sobín</option>
+                                                <option value="praha-stare-mesto" data-ng-if="!filter.region || filter.region == 'praha'">Staré Město</option>
+                                                <option value="praha-stodulky" data-ng-if="!filter.region || filter.region == 'praha'">Stodůlky</option>
+                                                <option value="praha-strasnice" data-ng-if="!filter.region || filter.region == 'praha'">Strašnice</option>
+                                                <option value="praha-stresovice" data-ng-if="!filter.region || filter.region == 'praha'">Střešovice</option>
+                                                <option value="praha-strizkov" data-ng-if="!filter.region || filter.region == 'praha'">Střížkov</option>
+                                                <option value="praha-suchdol" data-ng-if="!filter.region || filter.region == 'praha'">Suchdol</option>
+                                                <option value="praha-seberov" data-ng-if="!filter.region || filter.region == 'praha'">Šeberov</option>
+                                                <option value="praha-sterboholy" data-ng-if="!filter.region || filter.region == 'praha'">Štěrboholy</option>
+                                                <option value="praha-tocna" data-ng-if="!filter.region || filter.region == 'praha'">Točná</option>
+                                                <option value="praha-troja" data-ng-if="!filter.region || filter.region == 'praha'">Troja</option>
+                                                <option value="praha-trebonice" data-ng-if="!filter.region || filter.region == 'praha'">Třebonice</option>
+                                                <option value="praha-treboradice" data-ng-if="!filter.region || filter.region == 'praha'">Třeboradice</option>
+                                                <option value="praha-uhrineves" data-ng-if="!filter.region || filter.region == 'praha'">Uhříněves</option>
+                                                <option value="praha-ujezd-nad-lesy" data-ng-if="!filter.region || filter.region == 'praha'">Újezd nad Lesy</option>
+                                                <option value="praha-ujezd-u-pruhonic" data-ng-if="!filter.region || filter.region == 'praha'">Újezd u Průhonic</option>
+                                                <option value="praha-veleslavin" data-ng-if="!filter.region || filter.region == 'praha'">Veleslavín</option>
+                                                <option value="praha-velka-chuchle" data-ng-if="!filter.region || filter.region == 'praha'">Velká Chuchle</option>
+                                                <option value="praha-vinohrady" data-ng-if="!filter.region || filter.region == 'praha'">Vinohrady</option>
+                                                <option value="praha-vinor" data-ng-if="!filter.region || filter.region == 'praha'">Vinoř</option>
+                                                <option value="praha-vokovice" data-ng-if="!filter.region || filter.region == 'praha'">Vokovice</option>
+                                                <option value="praha-vrsovice" data-ng-if="!filter.region || filter.region == 'praha'">Vršovice</option>
+                                                <option value="praha-vysocany" data-ng-if="!filter.region || filter.region == 'praha'">Vysočany</option>
+                                                <option value="praha-vysehrad" data-ng-if="!filter.region || filter.region == 'praha'">Vyšehrad</option>
+                                                <option value="praha-zabehlice" data-ng-if="!filter.region || filter.region == 'praha'">Záběhlice</option>
+                                                <option value="praha-zadni-kopanina" data-ng-if="!filter.region || filter.region == 'praha'">Zadní Kopanina</option>
+                                                <option value="praha-zbraslav" data-ng-if="!filter.region || filter.region == 'praha'">Zbraslav</option>
+                                                <option value="praha-zlicin" data-ng-if="!filter.region || filter.region == 'praha'">Zličín</option>
+                                                <option value="praha-zizkov" data-ng-if="!filter.region || filter.region == 'praha'">Žižkov</option>
+                                        </select>
+
+            <span class="toAdvanced">
+                <select name="disposition[]" 
+                        class="disposition" 
+                        multiple
+                        data-bzr-multiple-select='{"selectAllText": "Vybrat vše", "allSelected": "Všechny dispozice", "placeholder": "Všechny dispozice"}'
+                        data-bzr-model="filter.disposition"
+                        data-ng-model="filter.disposition" 
+                        data-ng-if="visibleElements.disposition">
+                                                    <option value="garsoniera">Garsoniéra</option>
+                                                <option value="1-kk">1+kk</option>
+                                                <option value="1-1">1+1</option>
+                                                <option value="2-kk">2+kk</option>
+                                                <option value="2-1">2+1</option>
+                                                <option value="3-kk">3+kk</option>
+                                                <option value="3-1">3+1</option>
+                                                <option value="4-kk">4+kk</option>
+                                                <option value="4-1">4+1</option>
+                                                <option value="5-kk">5+kk</option>
+                                                <option value="5-1">5+1</option>
+                                                <option value="6-kk">6+kk</option>
+                                                <option value="6-1">6+1</option>
+                                                <option value="7-kk">7+kk</option>
+                                                <option value="7-1">7+1</option>
+                                                <option value="ostatni">Ostatní</option>
+                                        </select>
+
+                <input type="text" class="price" name="priceFrom" placeholder="Cena od" data-ng-model="filter.priceFrom" />
+                <input type="text" class="price" name="priceTo" placeholder="Cena do" data-ng-model="filter.priceTo" />
+            </span>
+
+            <div class="advanced">
+                <a href="" class="toggle" data-bzr-advanced-search=".search-form .advanced .elements">Více</a>
+
+                <div class="elements">
+                </div>
+            </div>
+
+            <input type="hidden" name="order" value="{{filter.order}}" />
+            <button type="submit" name="submit" id="listSubmit" class="submit">Vyhledat</button>
+
+            <div class="switch">
+                <a href="/vyhledat#?estatetype%5B0%5D=byt&priceTo=11111&polygons=%5B%5B%7B%22lng%22%3A14.6897211%2C%22lat%22%3A50.0960214%7D%2C%7B%22lng%22%3A14.5923328%2C%22lat%22%3A50.138741%7D%2C%7B%22lng%22%3A14.5320238%2C%22lat%22%3A50.1694438%7D%2C%7B%22lng%22%3A14.4119301%2C%22lat%22%3A50.1480658%7D%2C%7B%22lng%22%3A14.3288305%2C%22lat%22%3A50.1166654%7D%2C%7B%22lng%22%3A14.2492516%2C%22lat%22%3A50.110658%7D%2C%7B%22lng%22%3A14.2839268%2C%22lat%22%3A50.081586%7D%2C%7B%22lng%22%3A14.2590884%2C%22lat%22%3A50.0671295%7D%2C%7B%22lng%22%3A14.2743751%2C%22lat%22%3A50.0355765%7D%2C%7B%22lng%22%3A14.3002416%2C%22lat%22%3A50.0061054%7D%2C%7B%22lng%22%3A14.33768%2C%22lat%22%3A49.9931335%7D%2C%7B%22lng%22%3A14.3453871%2C%22lat%22%3A49.9734663%7D%2C%7B%22lng%22%3A14.39063%2C%22lat%22%3A49.944557%7D%2C%7B%22lng%22%3A14.4499165%2C%22lat%22%3A49.9734262%7D%2C%7B%22lng%22%3A14.484308004514%2C%22lat%22%3A49.992665632775%7D%2C%7B%22lng%22%3A14.507162730042%2C%22lat%22%3A49.99741425678%7D%2C%7B%22lng%22%3A14.508954090907%2C%22lat%22%3A49.994248679025%7D%2C%7B%22lng%22%3A14.507789611816%2C%22lat%22%3A49.992407042788%7D%2C%7B%22lng%22%3A14.513111114502%2C%22lat%22%3A49.992627760745%7D%2C%7B%22lng%22%3A14.519119262695%2C%22lat%22%3A49.996490161014%7D%2C%7B%22lng%22%3A14.5819811%2C%22lat%22%3A50.0161793%7D%2C%7B%22lng%22%3A14.6449482%2C%22lat%22%3A50.0001236%7D%2C%7B%22lng%22%3A14.6522965%2C%22lat%22%3A50.0476972%7D%2C%7B%22lng%22%3A14.6937581%2C%22lat%22%3A50.0946999%7D%2C%7B%22lng%22%3A14.6897211%2C%22lat%22%3A50.0960214%7D%2C%7B%22lng%22%3A14.6897211%2C%22lat%22%3A50.0960214%7D%5D%5D&advertoffertype=nabidka-pronajem">MAPA</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="section-inner">
+        <div class="box list">
+            <div class="box-header">
+                <p class="counter">
+                    Nalezeno 183 výsledků
+                </p>
+                <h1>Pronájem bytu v Praha bez realitky</h1>
+            </div>
+
+            <div class="search-filter ng-hide" data-ng-show="filter">
+                <form>
+                    <select name="tmpOrder" class="" data-ng-model="filter.order" data-bzr-click-on-change="#listSubmit">
+                                                    <option value="time_order_desc">Řadit od nejnovějších</option>
+                                                        <option value="time_order_asc">Řadit od nejstarších</option>
+                                                        <option value="price_asc">Řadit od nejlevnějších</option>
+                                                        <option value="price_desc">Řadit od nejdražších</option>
+                                                        <option value="surface_asc">Řadit od nejmenších</option>
+                                                        <option value="surface_desc">Řadit od největších</option>
+                                                </select>
+
+                    <a href class="mail btn-watchdog" data-ng-if="!watchdogSavedId" data-ng-click="createWatchdog()" >
+                        Upozornění emailem
+                    </a>
+
+                    <a href data-ng-href="/moje-bezrealitky/upozorneni-na-email/edit?action=upozorneni?id={{watchdogSavedId}}" target="_blank" class="btn-watchdog saved" data-ng-class="{blink: paginateAnimate}" data-ng-if="watchdogSavedId">
+                        {{paginateWatchdogSaved}}
+                    </a>
+
+                    <span ladda="loadingWatchdog" data-spinner-color="#999999" data-style="expand-right"></span>
+
+                    <a href="" class="short-url" data-ng-click="showShortUrlPopup()">sdílet</a>
+                </form>
+            </div>
+
+                                        
+                <div class="record highlight"
+                     data-ng-class="{'hidden': isHidden[125019]}"
+                     data-ng-init="isHidden[125019] = 0; isFavorite[125019] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/125019-nabidka-pronajem-bytu-bohuminska-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_nowm/data/record/images/125k/125019/0266bdde8372c015ebe32f08801a118c.jpg" alt="Pronájem bytu 1+kk, 40 m² bez realitky, Bohumínská, Praha - Letňany, hlavní foto" title="Pronájem bytu 1+kk, 40 m² bez realitky, Bohumínská, Praha - Letňany, hlavní foto" />
+                            <span class="gallery">4 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[125019]" data-ng-click="removeFromHidden(125019)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/125019-nabidka-pronajem-bytu-bohuminska-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[125019]">Oblíbený</i>
+                                Bohumínská, Praha - Letňany                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/125019</p>
+                        <p class="keys">Pronájem bytu 1+kk, 40 m²</p>
+                        <p class="price">9.000 Kč + 1.500 Kč </p>
+                        <p class="description">
+                            Pronajmu vybavený byt 1+kk Praha-Letňany, byt se nachází v klidné lokalitě, dostupnost MHD i metro. Byt je k nastěhování od 23.10.2016.                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/125019-nabidka-pronajem-bytu-bohuminska-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[125019]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(125019)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(125019)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[125019]" data-ng-click="addToHidden(125019)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/125019-nabidka-pronajem-bytu-bohuminska-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                                    <div class="wrapper service-centre">
+                        <div class="services" data-bzr-slick='{"slidesToShow": 1, "responsive":[{"breakpoint": 992, "settings": "unslick"}]}'>
+                            <div class="service contracts short">
+                                <div class="top">
+                                    <h3>Smlouvy</h3>
+                                </div>
+
+                                <div class="bottom">
+                                    <p class="price">
+                                        <strong>cena od: 990 Kč</strong>
+                                    </p>
+
+                                    <p>
+                                        <a href="/centrum-sluzeb/smlouvy?utm_source=bezrealitky_cz&utm_medium=cs_box&utm_campaign=sluzby&utm_content=vypis" class="btn btn-orange">Chci smlouvu</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="service cache short">
+                                <div class="top">
+                                    <h3>Úschova kupní ceny</h3>
+                                </div>
+
+                                <div class="bottom">
+                                    <p class="price">
+                                        <strong>cena od: 3.990 Kč</strong>
+                                    </p>
+
+                                    <p>
+                                        <a href="/centrum-sluzeb/uschova-kupni-ceny?utm_source=bezrealitky_cz&utm_medium=cs_box&utm_campaign=sluzby&utm_content=vypis" class="btn btn-light-red">Chci úschovu</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="service mortgage short">
+                                <div class="top">
+                                    <h3>Hypotéka</h3>
+                                </div>
+
+                                <div class="bottom">
+                                    <p class="price">
+                                        <strong>úrok od: 1,49 %</strong>
+                                    </p>
+
+                                    <p>
+                                        <a href="/centrum-sluzeb/hypoteka?utm_source=bezrealitky_cz&utm_medium=cs_box&utm_campaign=sluzby&utm_content=vypis" class="btn btn-purple">Chci hypotéku</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            
+                <div class="record highlight"
+                     data-ng-class="{'hidden': isHidden[446567]}"
+                     data-ng-init="isHidden[446567] = 0; isFavorite[446567] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/446567-nabidka-pronajem-bytu-ruska-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/446k/446567/1476865866-nxbef-07byt.JPG" alt="Pronájem bytu 1+kk, 38 m² bez realitky, Ruská, Praha - Vršovice, hlavní foto" title="Pronájem bytu 1+kk, 38 m² bez realitky, Ruská, Praha - Vršovice, hlavní foto" />
+                            <span class="gallery">22 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[446567]" data-ng-click="removeFromHidden(446567)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/446567-nabidka-pronajem-bytu-ruska-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[446567]">Oblíbený</i>
+                                Ruská, Praha - Vršovice                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/446567</p>
+                        <p class="keys">Pronájem bytu 1+kk, 38 m²</p>
+                        <p class="price">10.000 Kč + 2.900 Kč </p>
+                        <p class="description">
+                            MALÝ BYT 1+kk O VELIKOSTI 38 M2 V ATRAKTIVNÍ LOKALITĚ NA POMEZÍ VRŠOVIC A VINOHRAD. 
+ 
+K pronájmu nabízíme malý byt o velikosti 1+kk v suterénu s okny situovanými jižně do zahrad čistého a klidného vnitrobloku v nově zrekonstruovaném domě. Vybaven je kuchyňskou linkou, patrem na spaní a šatnou. Poplatky ve výši 2900 Kč jsou zálohové. Z toho jsou služby ve výši 900 Kč pro dvě osoby a zálohy na el. energii ve výši 2 tis. Kč přepisem elektroměru na nájemce....                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/446567-nabidka-pronajem-bytu-ruska-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[446567]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(446567)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(446567)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[446567]" data-ng-click="addToHidden(446567)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/446567-nabidka-pronajem-bytu-ruska-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record "
+                     data-ng-class="{'hidden': isHidden[446830]}"
+                     data-ng-init="isHidden[446830] = 0; isFavorite[446830] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/446830-nabidka-pronajem-bytu-novobohdalecka-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/446k/446830/1476994125-ahlsu-dsc-1222.JPG" alt="Pronájem bytu 2+kk, 52 m² bez realitky, Novobohdalecká, Praha - Michle, hlavní foto" title="Pronájem bytu 2+kk, 52 m² bez realitky, Novobohdalecká, Praha - Michle, hlavní foto" />
+                            <span class="gallery">15 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[446830]" data-ng-click="removeFromHidden(446830)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/446830-nabidka-pronajem-bytu-novobohdalecka-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[446830]">Oblíbený</i>
+                                Novobohdalecká, Praha - Michle                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/446830</p>
+                        <p class="keys">Pronájem bytu 2+kk, 52 m²</p>
+                        <p class="price">11.000 Kč + 3.000 Kč </p>
+                        <p class="description">
+                            Nabízím k pronájmu byt v novostavbě v ulici Novobohdalecká, Praha 10, o celkové ploše 52m2 (3. patro s výtahem). Jedná se o světlý, moderně řešený 2+kk, vhodný buď pro jednotlivce, nebo pár. Preferuji nekuřáka/čku bez domácích mazlíčků.
+
+Byt se skládá ze dvou neprůchozích pokojů (obývací pokoj s kuchyňským koutem, ložnice s balkonem), koupelny s vanou, samostatného WC a prostorné komory. V chodbě se nachází velké vestavěné skříně. Byt je vybavený...                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/446830-nabidka-pronajem-bytu-novobohdalecka-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[446830]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(446830)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(446830)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[446830]" data-ng-click="addToHidden(446830)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/446830-nabidka-pronajem-bytu-novobohdalecka-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record "
+                     data-ng-class="{'hidden': isHidden[446812]}"
+                     data-ng-init="isHidden[446812] = 0; isFavorite[446812] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/446812-nabidka-pronajem-bytu-dvacateho-osmeho-pluku-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/446k/446812/1476986071-ilfjl-img-5542.JPG" alt="Pronájem bytu 1+kk, 32 m² bez realitky, Dvacátého osmého pluku, Praha - Vršovice, hlavní foto" title="Pronájem bytu 1+kk, 32 m² bez realitky, Dvacátého osmého pluku, Praha - Vršovice, hlavní foto" />
+                            <span class="gallery">7 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[446812]" data-ng-click="removeFromHidden(446812)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/446812-nabidka-pronajem-bytu-dvacateho-osmeho-pluku-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[446812]">Oblíbený</i>
+                                Dvacátého osmého pluku, Praha - Vršovice                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/446812</p>
+                        <p class="keys">Pronájem bytu 1+kk, 32 m²</p>
+                        <p class="price">10.000 Kč + 3.400 Kč </p>
+                        <p class="description">
+                            Nabízím k dlouhodobému pronájmu nově zrekonstruovaný byt 1+kk v cihlové zástavbě v ulici 28. Pluku, Praha 10 – Vršovice. Slunný byt o rozloze 32 m2, umístěný ve 3. NP s výtahem, částečně zařízený, má novou kuchyňskou linku s vestavěnými spotřebiči (lednička, myčka, trouba, sklokeramická deska, digestoř). V koupelně je umyvadlo, sprchový kout, WC a přípojka na pračku.
+Byt se nachází v malebné městské části Vršovice s veškerou občanskou...                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/446812-nabidka-pronajem-bytu-dvacateho-osmeho-pluku-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[446812]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(446812)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(446812)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[446812]" data-ng-click="addToHidden(446812)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/446812-nabidka-pronajem-bytu-dvacateho-osmeho-pluku-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record highlight"
+                     data-ng-class="{'hidden': isHidden[307706]}"
+                     data-ng-init="isHidden[307706] = 0; isFavorite[307706] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/307706-nabidka-pronajem-bytu-satalicka-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_nowm/data/record/images/307k/307706/d6a130137246732ace036fe873a3607f.jpg" alt="Pronájem bytu 2+kk, 60 m² bez realitky, Satalická, Praha - Prosek, hlavní foto" title="Pronájem bytu 2+kk, 60 m² bez realitky, Satalická, Praha - Prosek, hlavní foto" />
+                            <span class="gallery">6 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[307706]" data-ng-click="removeFromHidden(307706)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/307706-nabidka-pronajem-bytu-satalicka-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[307706]">Oblíbený</i>
+                                Satalická, Praha - Prosek                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/307706</p>
+                        <p class="keys">Pronájem bytu 2+kk, 60 m²</p>
+                        <p class="price">10.000 Kč + 2.000 Kč </p>
+                        <p class="description">
+                            Pronajmu krásný byt v cihlovém domě po rekonstrukci v osobním vlastnictví, 1. patro. Parkování před domem. Ložnice + obyvák s krbem, kuchyňská linka vybavena sporákem,troubou + myčka na nádobí. Koupelna s vanou společně s wc. Podlahy parketové, v kuchyni dlažba. Menší balkonek, sklep,kompletní občanská vybavenost,autobus,metro. Kauce 1 měsíční nájem. Email: haaser@seznam.cz,tel.č.602 682 830 - Jarmila Haasová, RK - prosím nevolat.Děkuji                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/307706-nabidka-pronajem-bytu-satalicka-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[307706]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(307706)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(307706)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[307706]" data-ng-click="addToHidden(307706)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/307706-nabidka-pronajem-bytu-satalicka-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record "
+                     data-ng-class="{'hidden': isHidden[446776]}"
+                     data-ng-init="isHidden[446776] = 0; isFavorite[446776] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/446776-nabidka-pronajem-bytu-hanusova-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/446k/446776/1476968178-tzchg-p1100993.JPG" alt="Pronájem bytu 1+1, 29 m² bez realitky, Hanusova, Praha - Michle, hlavní foto" title="Pronájem bytu 1+1, 29 m² bez realitky, Hanusova, Praha - Michle, hlavní foto" />
+                            <span class="gallery">8 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[446776]" data-ng-click="removeFromHidden(446776)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/446776-nabidka-pronajem-bytu-hanusova-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[446776]">Oblíbený</i>
+                                Hanusova, Praha - Michle                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/446776</p>
+                        <p class="keys">Pronájem bytu 1+1, 29 m²</p>
+                        <p class="price">8.200 Kč + 2.500 Kč </p>
+                        <p class="description">
+                            Dobrý den, dovoluji si Vám nabídnout k pronájmu byt v domě po rekonstrukci v klidné lokalitě s výhledem do zeleně. Byt je po letošní kompletní rekonstrukci. Kuchyňský kout s novou kuchyňskou linkou (elektrický indukční dvouvařič, lednice, pračka) a s oknem. Obývací místnost je vybavena novým nábytkem. Ve zděné koupelně je sprchový kout, wc je částečně oddělené příčkou. V předsíni se nachází skříň. Na podlahách je dlažba, plovoucí podlaha a...                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/446776-nabidka-pronajem-bytu-hanusova-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[446776]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(446776)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(446776)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[446776]" data-ng-click="addToHidden(446776)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/446776-nabidka-pronajem-bytu-hanusova-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record "
+                     data-ng-class="{'hidden': isHidden[445393]}"
+                     data-ng-init="isHidden[445393] = 0; isFavorite[445393] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/445393-nabidka-pronajem-bytu-olsanska-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/445k/445393/1476116049-xlbbh-1.jpg" alt="Pronájem bytu 1+kk, 35 m² bez realitky, Olšanská, Praha - Žižkov, hlavní foto" title="Pronájem bytu 1+kk, 35 m² bez realitky, Olšanská, Praha - Žižkov, hlavní foto" />
+                            <span class="gallery">18 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[445393]" data-ng-click="removeFromHidden(445393)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/445393-nabidka-pronajem-bytu-olsanska-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[445393]">Oblíbený</i>
+                                Olšanská, Praha - Žižkov                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/445393</p>
+                        <p class="keys">Pronájem bytu 1+kk, 35 m²</p>
+                        <p class="price">10.900 Kč + 2.139 Kč </p>
+                        <p class="description">
+                            Pronajmu úplně nový, pěkný, světlý atelier-jiný nebytový prostor o velikosti 1+kk, 35 m2, který je uzpůsoben k bydlení. Nachází se v 5.NP, v novostavbě luxusní residence Garden Towers na Žižkově. Olšanská ulice je již stranou, za stromy.
+
+Pronájem jen firmě, plátci DPH. Možno využívat k bydlení, přespání + jako kancelář, spíše raději bez většího pohybu návštěvníků. Po vzájemné dohodě možné zapsat i jako sídlo společnosti. 
+
+K ateliéru...                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/445393-nabidka-pronajem-bytu-olsanska-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[445393]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(445393)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(445393)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[445393]" data-ng-click="addToHidden(445393)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/445393-nabidka-pronajem-bytu-olsanska-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record "
+                     data-ng-class="{'hidden': isHidden[446771]}"
+                     data-ng-init="isHidden[446771] = 0; isFavorite[446771] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/446771-nabidka-pronajem-bytu-bechorska-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/446k/446771/1476964718-mipxn-img-20160519-164112.jpg" alt="Pronájem bytu Garsoniéra, 38 m² bez realitky, Běchorská, Praha - Horní Počernice, hlavní foto" title="Pronájem bytu Garsoniéra, 38 m² bez realitky, Běchorská, Praha - Horní Počernice, hlavní foto" />
+                            <span class="gallery">7 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[446771]" data-ng-click="removeFromHidden(446771)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/446771-nabidka-pronajem-bytu-bechorska-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[446771]">Oblíbený</i>
+                                Běchorská, Praha - Horní Počernice                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/446771</p>
+                        <p class="keys">Pronájem bytu Garsoniéra, 38 m²</p>
+                        <p class="price">9.500 Kč</p>
+                        <p class="description">
+                            Nabízíme k dlouhodobému pronájmu světlou garsoniéru (cca 38 m2) v ulici Běchorská 2228/13 v Horních Počernicích. Byt ve 2. patře šestipatrového panelového domu s výtahem je po částečné rekonstrukci: nová, plastová okna směřovaná na jih, prostorný kuchyňský kout se sporákem (nový 2014). Koupelna a samostatné WC jsou nově obloženy. Byt není zařízený (k vybavení patří elektrická trouba, lednice, třídveřová šatní skříň a botník). K bytu náleží...                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/446771-nabidka-pronajem-bytu-bechorska-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[446771]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(446771)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(446771)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[446771]" data-ng-click="addToHidden(446771)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/446771-nabidka-pronajem-bytu-bechorska-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record "
+                     data-ng-class="{'hidden': isHidden[446765]}"
+                     data-ng-init="isHidden[446765] = 0; isFavorite[446765] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/446765-nabidka-pronajem-bytu-benkova-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/446k/446765/1476962165-oxgtu-img-0327.JPG" alt="Pronájem bytu 1+1, 30 m² bez realitky, Benkova, Praha - Chodov, hlavní foto" title="Pronájem bytu 1+1, 30 m² bez realitky, Benkova, Praha - Chodov, hlavní foto" />
+                            <span class="gallery">7 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[446765]" data-ng-click="removeFromHidden(446765)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/446765-nabidka-pronajem-bytu-benkova-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[446765]">Oblíbený</i>
+                                Benkova, Praha - Chodov                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/446765</p>
+                        <p class="keys">Pronájem bytu 1+1, 30 m²</p>
+                        <p class="price">10.000 Kč + 3.000 Kč </p>
+                        <p class="description">
+                            Nabízím k pronájmu velmi pěkný, tichý a světlý byt 1+1 ve 2. patře panelového domu v blízkosti Obchodního centra Chodov. 
+Byt je plně vybavený (vč. internetu) k možnému nastěhování od 1.12.2016.
+
+Vybavení bytu: 
+V ložnici je umístěno dvoulůžko-postel, komoda, rozkládací pohovka s úložným prostorem, TV, TV stolek. Jídelní část je vybavena jídelním stolem s židlemi. 
+Kuchyně s elektrickým sporákem,  lednicí s mrazákem a veškerým nádobím.  
+V...                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/446765-nabidka-pronajem-bytu-benkova-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[446765]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(446765)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(446765)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[446765]" data-ng-click="addToHidden(446765)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/446765-nabidka-pronajem-bytu-benkova-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                                            
+                <div class="record "
+                     data-ng-class="{'hidden': isHidden[446746]}"
+                     data-ng-init="isHidden[446746] = 0; isFavorite[446746] = 0"
+                     >
+                    <div class="image">
+                                                <a href="/nemovitosti-byty-domy/446746-nabidka-pronajem-bytu-machova-praha" target="_blank">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb/data/record/images/446k/446746/1476953000-apqpj-mach-kuchyn-2.JPG" alt="Pronájem bytu 2+kk, 47 m² bez realitky, Máchova, Praha - Vinohrady, hlavní foto" title="Pronájem bytu 2+kk, 47 m² bez realitky, Máchova, Praha - Vinohrady, hlavní foto" />
+                            <span class="gallery">6 fotografií</span>
+                        </a>
+                    </div>
+
+                    <div class="details">
+                        <a href="" class="show-hidden ng-hide" data-ng-show="isHidden[446746]" data-ng-click="removeFromHidden(446746)">Zobrazit inzerát</a>
+
+                        <h2 class="header">
+                            <a href="/nemovitosti-byty-domy/446746-nabidka-pronajem-bytu-machova-praha" target="_blank">
+                                <i class="favorite ng-hide" data-ng-show="isFavorite[446746]">Oblíbený</i>
+                                Máchova, Praha - Vinohrady                            </a>
+                        </h2>
+
+                        <p class="short-url">https://www.bezrealitky.cz/id/446746</p>
+                        <p class="keys">Pronájem bytu 2+kk, 47 m²</p>
+                        <p class="price">10.500 Kč + 2.500 Kč </p>
+                        <p class="description">
+                            Majitel nabízí k pronájmu částečně vybavený byt 2+kk, 47 m2, v blízkosti Havlíčkových sadů a Náměstí Míru. Byt je v osobním vlastnictví v cihlové zástavbě v pěkném prostředí Prahy 2 – Vinohrad, v 1. patře domu, kde byla kompletní rekonstrukce dokončena r. 2016. Pro teplou vodu boiler, topení WAW, koupelna se sprchovým koutem, WC, dva oddělené pokoje. Byt je vybaven botníkem a úložnou skříní. Moderně vybavený kuchyňský kout s vestavěnými...                        </p>
+
+                        <p  class="links ng-hide" data-ng-show="isLoaded">
+                            
+                            
+                                                            <a class="favorite" href="/zvyraznit/446746-nabidka-pronajem-bytu-machova-praha">Topovat</a>
+                                                        <span data-ng-switch="isFavorite[446746]">
+                                <a href="" class="favorite" data-ng-switch-when="0" data-ng-click="addToFavorite(446746)">Do oblíbených</a>
+                                <a href="" class="favorite" data-ng-switch-when="1" data-ng-click="removeFromFavorites(446746)">Z oblíbených</a>
+                            </span>
+
+                            <a href="" class="hide" data-ng-hide="isHidden[446746]" data-ng-click="addToHidden(446746)">Skrýt inzerát</a>
+                        </p>
+
+                        <a class="btn-detail" href="/nemovitosti-byty-domy/446746-nabidka-pronajem-bytu-machova-praha" title="Detail">Detail</a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                
+            <div class="box-body">
+                                    <a href="/vypis/nabidka-pronajem/byt/praha?priceFrom=&priceTo=11111&order=time_order_desc&submit=&page=1" class="btn btn-dark-blue">1</a>
+                                        <a href="/vypis/nabidka-pronajem/byt/praha?priceFrom=&priceTo=11111&order=time_order_desc&submit=&page=2" class="btn btn-dark-grey">2</a>
+                                        <a href="/vypis/nabidka-pronajem/byt/praha?priceFrom=&priceTo=11111&order=time_order_desc&submit=&page=3" class="btn btn-dark-grey">3</a>
+                                        <a href="/vypis/nabidka-pronajem/byt/praha?priceFrom=&priceTo=11111&order=time_order_desc&submit=&page=4" class="btn btn-dark-grey">4</a>
+                                        <a href="/vypis/nabidka-pronajem/byt/praha?priceFrom=&priceTo=11111&order=time_order_desc&submit=&page=2" class="btn btn-dark-grey">Další</a>
+                                </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+            var currentFilter = '{"advertoffertype":"nabidka-pronajem","estatetype":"byt","region":"praha","county":"","priceFrom":"","priceTo":"11111","order":"time_order_desc","submit":""}';
+</script>
+
+<footer>
+
+    <div class="contacts-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-lg-3">
+                    <a href="tel:+420226227522">
+                        <span class="icon icon-rounded_phone">
+                            <span class="path1"></span><span class="path2"></span>
+                        </span>
+                    </a>
+                    <p>
+                        <strong><a href="tel:+420226227522">+420 226 227 522</a></strong>
+                        <br>
+                        <span>Po - Pá (09:00 - 17:00)</span>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-lg-3 middle">
+                    <a href="mailto:info@bezrealitky.cz">
+                        <span class="icon icon-rounded_email">
+                            <span class="path1"></span><span class="path2"></span>
+                        </span>
+                    </a>
+                    <p>
+                        <strong><a href="mailto:info@bezrealitky.cz">info@bezrealitky.cz</a></strong>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-lg-3 links">
+                    <a href="https://twitter.com/bezrealitky_cz" class="icon icon-rounded_twitter" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                    <a href="https://www.facebook.com/bezrealitky" class="icon icon-rounded_facebook" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                    <a href="http://blog.bezrealitky.cz" class="icon icon-rounded_blog" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCCu_54Bu2YvqndTUZXPflzw" class="icon icon-rounded_youtube" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-inner">
+        <div class="items">
+            <div class="item">
+                <h2>O NÁS</h2>
+                <ul>
+                    <li><a href="/informace/o-nas">Kdo jsme</a></li>
+                    <li><a href="https://blog.bezrealitky.cz/">Náš blog</a></li>
+                    <li><a href="/informace/overeny-uzivatel">Ověřený uživatel</a></li>
+                    <li><a href="https://www.id-sign.com/projekty/bezrealitky">Vytvořeno v iD-SIGN</a></li>
+                </ul>
+            </div>
+            <div class="item">
+
+                <h2>PRO INZERENTY</h2>
+                <ul>
+                    <li><a href="/vlozit-inzerat">Vložit inzerát</a></li>
+                    <li><a href="/informace/cenik-sluzeb">Ceník služeb</a></li>
+                    <li><a href="/informace/realitni-pruvodci">Realitní průvodci</a></li>
+                    <li><a href="/informace/smluvni-podminky">Smluvní podmínky</a></li>
+                    <li><a href="/informace/vzorove-smlouvy">Vzorové smlouvy</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h2>CENTRUM SLUŽEB</h2>
+                <ul>
+                    <li><a href="/centrum-sluzeb/smlouvy">Smlouvy</a></li>
+                    <li><a href="/centrum-sluzeb/uschova-kupni-ceny">Úschova kupní ceny</a></li>
+                    <li><a href="/centrum-sluzeb/hypoteka">Hypotéka</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="partners container">
+            <img src="/img/loga/radio-sumava.png" alt="">
+            <img src="/img/loga/radio-city.png" alt="">
+            <img src="/img/loga/radio-fajn.png" alt="">
+            <img src="/img/loga/radio-hitradio.png" alt="">
+            <img src="/img/loga/radio-blanik.png" alt="">
+            <img src="/img/loga/living-cz.png" alt="">
+        </div>
+    </div>
+</footer>
+
+    <div class="current-device-type"></div>
+
+    <div class="eu-cookies ng-hide" data-ng-show="showedEuCookies">
+        Tyto stránky používají cookies. Setrváním na stránce souhlasíte s jejich používáním.
+        <a href data-ng-click="acceptEuCookies()">V pořádku</a>
+        <a href="https://www.google.com/policies/technologies/cookies/" target="_blank">Více</a>
+    </div>
+
+    <div class="popup" id="popup-login" data-ng-class="{'show':showedLoginPopup}">
+        <form>
+            <div class="header">
+                <a href="" class="close" data-ng-click="hideLoginPopup()">X</a>
+                <h2>Vítejte na bezrealitky.cz</h2>
+            </div>
+
+            <div class="body">
+                Nemáte u nás svůj účet? <a href="" data-ng-click="showRegistrationPopup()">ZAREGISTRUJTE SE</a>
+            </div>
+
+            <div class="body">
+                <input type="text" name="login" placeholder="Zadejte svojí emailovou adresu" data-ng-model="userLogin.login" />
+                <input type="password" name="password" placeholder="Zadejte své heslo" data-ng-model="userLogin.password" />
+
+                <a href="" data-ng-click="showForgetPopup()">Zapomněli jste své heslo?</a>
+            </div>
+
+            <div class="body">
+                <div class="table-mobile">
+                    <div class="row">
+                        <div class="cell checkbox">
+                            <input type="checkbox" name="conditions" data-ng-model="userLogin.conditions" id="login-conditions"/>
+                        </div>
+
+                        <div class="cell">
+                            <label for="login-conditions" class="required">
+                                Souhlasím se <a href="/informace/smluvni-podminky" target="_blank">smluvními podmínkami</a>.
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell checkbox">
+                            <input type="checkbox" name="broker" data-ng-model="userLogin.broker"  id="login-broker" />
+                        </div>
+
+                        <div class="cell">
+                            <label for="login-broker" class="required">
+                                Nejsem realitní makléř ani jiný realitní zprostředkovatel. Pokud je mé prohlášení nepravdivé, může mi být udělena pokuta dle smluvních podmínek.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="error-text" data-ng-show="errorsPopupLogin">{{errorsPopupLogin}}</span>
+                <a href="" class="btn btn-blue" data-ng-click="loginUser();" data-ladda="loadingUserLogin">PŘIHLÁSIT SE</a>
+            </div>
+
+            <div class="body">
+                <p>
+                    Nebo se přihlaste pomocí mojeID - <a href="/init-moje-id-registration" target="_blank">založit mojeID</a>
+                </p>
+                <br>
+
+                <a href="/moje-id-login" data-bzr-login-terms="userLogin" data-bzr-login-terms-error="errorsPopupLogin" class="btn btn-mojeid">mojeID</a>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="popup" id="popup-registration" data-ng-class="{'show':showedRegistrationPopup}">
+        <form name="userRegistrationForm" novalidate>
+            <div class="header">
+                <a href="" class="close" data-ng-click="hideRegistrationPopup()">X</a>
+                <h2>Vytvořte si svůj účet</h2>
+            </div>
+
+            <div class="body">
+                Máte u nás již svůj účet? <a href="" data-ng-click="showLoginPopup()">PŘIHLASTE SE</a>
+            </div>
+
+            <div class="body">
+                <select name="type" data-ng-model="userRegistration.type">
+                    <option value="fyzicka">Fyzická osoba</option>
+                    <option value="pravnicka">Právnická osoba</option>
+                </select>
+                <span class="error-text" data-ng-show="(userRegistrationForm.type.$error.required && showedErrorsPopupUserRegistration)">Typ osoby je povinné pole</span>
+
+                <input type="text" name="company_ic" placeholder="IČ" class="half" data-ng-model="userRegistration.companyIc" data-ng-if="userRegistration.type === 'pravnicka'" required/>
+                <span class="link" data-ng-if="userRegistration.type === 'pravnicka'">
+                    <a href="" data-ng-click="getAres()" data-ng-show="userRegistration.companyIc" ladda="loadingAres">Doplnit údaje z registru dle IČ</a>
+                </span>
+                <span class="error-text" data-ng-show="(userRegistrationForm.company_ic.$error.required && showedErrorsPopupUserRegistration)">IČ je u pravnické osoby povinné pole</span>
+                <input type="text" name="company_dic" placeholder="DIČ" class="half" data-ng-model="userRegistration.companyDic" data-ng-if="userRegistration.type === 'pravnicka'" />
+
+                <input type="text" name="company_name" placeholder="Název právnické osoby" data-ng-model="userRegistration.companyName" data-ng-if="userRegistration.type === 'pravnicka'" required/>
+                <span class="error-text" data-ng-show="(userRegistrationForm.company_name.$error.required && showedErrorsPopupUserRegistration)">Název pravnické osoby je povinné pole</span>
+                <select name="company_type" data-ng-model="userRegistration.companyType" data-ng-if="userRegistration.type === 'pravnicka'" required>
+                    <option value="">Vyberte typ právnické osoby</option>
+                                            <option value="obce-a-mesta">Obce a města</option>
+                                                <option value="sprava-nemovitosti">Správa nemovitostí</option>
+                                                <option value="bytove-druzstvo">Bytové družstvo</option>
+                                                <option value="cirkev">Církev</option>
+                                                <option value="neziskova-organizace">Nezisková organizace</option>
+                                                <option value="spolecenstvi-vlastniku-jednotek">Společenství vlastníků jednotek</option>
+                                                <option value="stavebni-spolecnost">Stavební společnost</option>
+                                                <option value="ostatni">Ostatní</option>
+                                        </select>
+                <span class="error-text" data-ng-show="(userRegistrationForm.company_type.$error.required && showedErrorsPopupUserRegistration)">Typ pravnické osoby je povinné pole</span>
+                <input type="text" name="name" placeholder="Vaše jméno" data-ng-model="userRegistration.name" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.name.$error.required && showedErrorsPopupUserRegistration)">Jméno je povinné pole</span>
+                <input type="text" name="surname" placeholder="Vaše příjmení" data-ng-model="userRegistration.surname" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.surname.$error.required && showedErrorsPopupUserRegistration)">Přijmení je povinné pole</span>
+                <input type="tel" 
+                       name="phone" 
+                       required 
+                       pattern="[0-9 -()]{9,14}"
+                       data-bzr-intl-phone="userRegistration.phonePrefix" 
+                       data-phone-country="userRegistration.phoneCountry"
+                       data-form="userRegistrationForm"
+                       data-ng-model="userRegistration.phone" 
+                       />
+                <span class="error-text" data-ng-show="(userRegistrationForm.phone.$invalid && showedErrorsPopupUserRegistration)">Telefon ve správném formátu je povinné pole</span>
+                <input type="text" name="address" placeholder="Vaše adresa" data-ng-model="userRegistration.address" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.address.$error.required && showedErrorsPopupUserRegistration)">Adresa je povinné pole</span>
+                <input type="email" name="email" placeholder="Váš email" data-ng-model="userRegistration.email" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.email.$invalid && showedErrorsPopupUserRegistration)">Musíte zadat svůj e-mail ve správném formátu</span>
+                <input type="password" name="password" placeholder="Vaše heslo" data-ng-model="userRegistration.password" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.password.$error.required && showedErrorsPopupUserRegistration)">Heslo je povinné pole</span>
+            </div>
+
+            <div class="body">
+                <div class="table-mobile">
+                    <div class="row">
+                        <div class="cell checkbox">
+                            <input type="checkbox" name="conditions" data-ng-model="userRegistration.conditions" id="registration-conditions"/>
+                        </div>
+
+                        <div class="cell">
+                            <label for="registration-conditions" class="required">
+                                Souhlasím se <a href="/informace/smluvni-podminky" target="_blank">smluvními podmínkami</a>.
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell checkbox">
+                            <input type="checkbox" name="broker" data-ng-model="userRegistration.broker"  id="registration-broker" />
+                        </div>
+
+                        <div class="cell">
+                            <label for="registration-broker" class="required">
+                                Nejsem realitní makléř ani jiný realitní zprostředkovatel. Pokud je mé prohlášení nepravdivé, může mi být udělena pokuta dle smluvních podmínek.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="error-text" data-ng-show="(userRegistrationError && showedErrorsPopupUserRegistration)">{{userRegistrationError}}</span>
+                <a href="" class="btn btn-blue" data-ng-click="registrationUser(userRegistrationForm.$valid)" data-ladda="loadingUserRegistration">ZAREGISTRUJTE SE</a>
+            </div>
+
+            <div class="body">
+                <p>
+                    Nebo se přihlaste pomocí mojeID - <a href="/init-moje-id-registration" target="_blank">založit mojeID</a>
+                </p>
+                <br>
+
+                <a href="/moje-id-login" data-bzr-login-terms="userRegistration" data-bzr-login-terms-error="userRegistrationError" data-bzr-login-terms-show-error="showedErrorsPopupUserRegistration" class="btn btn-mojeid">mojeID</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="popup" id="popup-forget-password" data-ng-class="{'show':showedForgetPopup}">
+        <form>
+            <div class="header">
+                <a href="" class="close" data-ng-click="hideForgetPopup()">X</a>
+                <h2>Zapomenuté heslo</h2>
+            </div>
+
+            <div class="body">
+                Nemáte u nás svůj účet? <a href="" data-ng-click="showRegistrationPopup()">ZAREGISTRUJTE SE</a>
+            </div>
+
+            <div class="body">
+                Uveďte váš registrační email, na který vám zašleme pokyny pro změnu hesla.
+            </div>
+
+            <div class="body">
+                <input type="text" name="login" placeholder="Zadejte svojí emailovou adresu" data-ng-model="userForget.email" />
+            </div>
+
+            <div class="body">
+
+                <span class="error-text" data-ng-show="errorsPopupForget">{{errorsPopupForget}}</span>
+                <a href="" class="btn btn-blue" data-ng-click="forgetPassword();" data-ladda="loadingUserForget">ODESLAT</a>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="popup" id="popup-short-url" data-ng-class="{'show':showedShortUrlPopup}">
+        <form>
+            <div class="header">
+                <a href="" class="close" data-ng-click="hideShortUrlPopup()">X</a>
+                <h2>Zkrácená URL</h2>
+            </div>
+
+            <div class="body">
+                V boxu je zkrácená URL adresa této stránky
+            </div>
+
+            <div class="body" ladda="loadingShortUrl">
+                <input type="text" name="short" data-ng-model="shortUrl" />
+            </div>
+
+            <div class="body">
+                <a href="" class="btn btn-blue" data-ng-click="hideShortUrlPopup();">ZAVŘÍT</a>
+            </div>
+
+
+        </form>
+    </div>
+
+    <div class="popup-overlay" data-ng-class="{'show': showedPopup}"></div>
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+                                var _smartsupp = _smartsupp || {};
+                                _smartsupp.key = "2e4762c79fad32bc0dcde80507236508d61737bc";
+                                // ...
+                                // your configuration
+                                // ...
+                                window.smartsupp || (function (d) {
+                                    var s, c, o = smartsupp = function () {
+                                        o._.push(arguments)
+                                    };
+                                    o._ = [];
+                                    s = d.getElementsByTagName('script')[0];
+                                    c = d.createElement('script');
+                                    c.type = 'text/javascript';
+                                    c.charset = 'utf-8';
+                                    c.async = true;
+                                    c.src = '//www.smartsuppchat.com/loader.js';
+                                    s.parentNode.insertBefore(c, s);
+                                })(document);
+    </script>
+
+    <script type="text/javascript">
+                                function myUrl(path) {
+                                    return BZR_URL_BASE + path;
+                                };
+    </script>
+
+    <script type="text/javascript">
+                                /* <![CDATA[ */
+                                var google_conversion_id = 958262858;
+                                var google_custom_params = window.google_tag_params;
+                                var google_remarketing_only = true;
+                                /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/958262858/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+    <script type="text/javascript">
+                                /* <![CDATA[ */
+                                var seznam_retargeting_id = 12293;
+                                /* ]]> */
+    </script>
+    <script type="text/javascript" src="//c.imedia.cz/js/retargeting.js"></script>
+
+        <!-- iBILLBOARD Ad Server one2many code -->
+        <!-- HowTo: All the ad codes must be above this code! -->
+        <!-- HowTo: It is good idea to place this code just below the last ad code. -->
+        <script type='text/javascript' charset='utf-8' src='https://go.eu.bbelements.com/bb/bb_one2n.js'></script>
+        <script type='text/javascript'>/* <![CDATA[ */
+                                    var bbkeywords = ''; //fill in: 'key1;key2;..'
+                                    bmone2n.addPosition('23932.2.1.1', '', 'this','class=visible', '', 'display:none');
+                                    bmone2n.addPosition('23932.2.1.4', '', 'this','class=visible', '', 'display:none');
+                                    bmone2n.getAd('go.eu.bbelements.com', bbkeywords, '' + (typeof (bburlparam) === 'string' ? '&' + bburlparam : ''), 'utf-8');
+                                    /* ]]> */</script>
+        <div id='bmone2t-23932.2.1.1' style='display:none'><script type='text/javascript'>/* <![CDATA[ */ bmone2n.makeAd('23932.2.1.1'); /* ]]> */</script></div>
+        <div id='bmone2t-23932.2.1.4' style='display:none'><script type='text/javascript'>/* <![CDATA[ */ bmone2n.makeAd('23932.2.1.4'); /* ]]> */</script></div>
+        <script type='text/javascript'>/* <![CDATA[ */ bmone2n.moveAd(); /* ]]> */</script>
+</body>
+</html>

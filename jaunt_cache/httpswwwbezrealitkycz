@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="cs" data-ng-app="bzrApp" data-ng-controller="GlobalCtrl" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head>
+        <meta name="author" content="bezrealitky.cz" >
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <meta charset="utf-8">
+        <meta name="description" content="Prodej bytů, pronájem bytů, prodej domů, pronájem domů, prodej pozemků. Přímý prodej a pronájem realit v celé ČR bez provize." >
+        <meta name="keywords" content="Reality, Nemovitosti, prodej bez realitky, pronájem bez realitky, bez realitní kanceláře, prodej bytů, pronájem bytů, prodej domů, pronájem domů, prodej pozemků" >
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" >
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta http-equiv="x-xrds-location" content="https://www.bezrealitky.cz/mojeidxml"/>
+
+                    <title>bezrealitky.cz - prodej a pronájem nemovitostí bez provize</title>
+        
+        <!-- favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <!-- ---- -->
+
+                                                
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900|Roboto+Condensed:300,400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+        <link href="/compress/style.css?v=20161018" rel="stylesheet" />
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.25&amp;libraries=places,geometry&amp;key=AIzaSyBD7gPVhOPp9P9x7ds0iJaMcn-SiWdvyH8&amp;language=cs&amp;region=CZ"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script src="/compress/script.js?v=20161018" type="text/javascript"></script>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+!function (f, b, e, v, n, t, s) {
+    if (f.fbq)
+        return;
+    n = f.fbq = function () {
+        n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+    };
+    if (!f._fbq)
+        f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s);
+}(window,
+        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '941921975933987');
+fbq('track', "PageView");
+        </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=941921975933987&ev=PageView&noscript=1"
+                   /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <script>dataLayer = [];</script>
+    <!-- Google Tag Manager -->
+    <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-TTKNMZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'});
+            var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TTKNMZ');
+    </script>
+    <!-- End Google Tag Manager -->
+
+            <!-- (C)2000-2015 Gemius SA - gemiusAudience / bezrealitky.cz / Homepage -->
+        <script type="text/javascript">
+            <!--//--><![CDATA[//><!--
+        var pp_gemius_identifier = '..fqmHwqYyuNRdL3TlJ6bMR77AlyhMQYnWg2sdFSidD.H7';
+            // lines below shouldn't be edited
+            function gemius_pending(i) {
+                window[i] = window[i] || function () {
+                    var x = window[i + '_pdata'] = window[i + '_pdata'] || [];
+                    x[x.length] = arguments;
+                };
+            }
+            ;
+            gemius_pending('gemius_hit');
+            gemius_pending('gemius_event');
+            gemius_pending('pp_gemius_hit');
+            gemius_pending('pp_gemius_event');
+            (function (d, t) {
+                try {
+                    var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol === 'https:') ? 's' : '');
+                    gt.setAttribute('async', 'async');
+                    gt.setAttribute('defer', 'defer');
+                    gt.src = l + '://spir.hit.gemius.pl/xgemius.js';
+                    s.parentNode.insertBefore(gt, s);
+                } catch (e) {
+                }
+            })(document, 'script');
+            //--><!]]>
+        </script>
+    
+            <div class="container text-center visible-md visible-lg top-section" id="top-section">
+            <!-- iBILLBOARD Ad Server one2many Pozice: go.eu.bbelements.com bezrealitky(23932) / Homepage(1) / Leaderboard(1) / Leaderboard 745x100(1)-->
+            <!-- HowTo: Place this code into the html page where the ad should appear. -->
+            <div id='bmone2n-23932.1.1.1'>
+                <noscript><div style='display:inline'>
+                    <a href='https://go.eu.bbelements.com/please/redirect/23932/1/1/1/'>
+                        <img src='https://go.eu.bbelements.com/please/showit/23932/1/1/1/?typkodu=img&keywords=' style='border-width:0' alt='' />
+                    </a>
+                </div>
+                </noscript>
+            </div>
+            <div class="bbInfotext"><img src="/img/bb-info.png" alt=""></div>
+        </div>
+    
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-hamburder"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <span class="bezrealitky-logo"></span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/vlozit-inzerat">Vložit inzerát</a></li>
+                    <li><a href="/vyhledat">Vyhledat</a></li>
+                    <li><a href="/vypis">Výpis</a></li>
+                    <li><a href="/informace/cenik-sluzeb">Ceník</a></li>
+                    <li><a href="/centrum-sluzeb">Služby</a></li>
+                    <li data-ng-cloak>
+                        <a class="user-login" href="" data-ng-if="!authUser || !authUser.status" data-ng-click="showLoginPopup()">Přihlášení</a>
+                        <a class="user-login" href="/moje-bezrealitky/rady-a-tipy" data-ng-if="authUser && authUser.status">{{authUser.user.firstname}} {{authUser.user.lastname}}</a>
+                    </li>
+                    <li data-ng-if="authUser && authUser.status" data-ng-cloak>
+                        <a class="user-logout" href="/odhlaseni">Odhlášení</a>
+                    </li>
+
+                                    </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+    
+    <div class="page-index" data-ng-controller="IndexCtrl" data-ng-cloak>
+        <div class="hp-search">
+            <div class="container">
+                <div class="claim hidden-xs">
+                    <h1>Majitelé majitelům. Bydlení bez provize.</h1>
+                    <p>Neplaťte zbytečně <strong>realitním kancelářím</strong>, ušetříme Vám <strong>čas i peníze</strong>.</p>
+                </div>
+
+                <form class="form-inline hidden-xs" action="{{ searchUrl }}">
+                    <div class="search-elements top">
+                        <div class="form-group rounded-left">
+                            <label for="advertoffertype">Typ inzerátu</label>
+                            <select type="text" 
+                                    class="form-control" 
+                                    id="advertoffertype" 
+                                    placeholder="Typ inzerátu"
+                                    data-bzr-multiple-select='{"single": true}'
+                                    data-ng-model="filter.advertoffertype"
+                                    data-ng-change="changeSearchParams()"
+                                    >
+                                                                    <option value="nabidka-prodej">Nabídka prodej</option>
+                                                                    <option value="nabidka-pronajem">Nabídka pronájem</option>
+                                                                    <option value="nabidka-spolubydleni">Nabídka spolubydlení</option>
+                                                                    <option value="poptavka-prodej">Poptávka prodej</option>
+                                                                    <option value="poptavka-pronajem">Poptávka pronájem</option>
+                                                                    <option value="poptavka-spolubydleni">Poptávka spolubydlení</option>
+                                                            </select>
+                        </div>
+
+                        <div class="form-group rounded-right-sm">
+                            <label for="estatetype">Typ nemovitosti</label>
+                            <select type="text" 
+                                    class="form-control" 
+                                    id="estatetype" 
+                                    placeholder="Typ inzerátu"
+                                    multiple
+                                    size="1"
+                                    data-bzr-multiple-select='{"selectAllText": "Vybrat vše", "allSelected": "Všechny typy", "placeholder": "Všechny typy"}'
+                                    data-ng-model="filter.estatetype"
+                                    data-ng-change="changeSearchParams()"
+                                    >
+                                                                    <option value="byt">Byt</option>
+                                                                    <option value="dum">Dům</option>
+                                                                    <option value="pozemek">Pozemek</option>
+                                                                    <option value="garaz">Garáž</option>
+                                                                    <option value="kancelar">Kancelář</option>
+                                                                    <option value="nebytovy-prostor">Nebytový prostor</option>
+                                                                    <option value="rekreacni-objekt">Rekreační objekt</option>
+                                                            </select>
+                        </div>
+                    </div>
+
+                    <div class="search-elements bottom">
+                        <div class="form-group location rounded-left-sm">
+                            <div class="icon">
+                                <span class="icon-location"></span>
+                            </div>
+                            <div class="input">
+                                <label for="location">Lokalita</label>
+                                <input type="text" 
+                                       class="form-control" 
+                                       id="location" 
+                                       placeholder="můžete zadat adresu nebo město"
+                                       data-bzr-place-autocomplete="changeSearchParams()" 
+                                       data-ng-change="changeSearchParams()"
+                                       data-ng-model="filter.address"
+                                       >
+                            </div>
+                        </div>
+
+                        <a class="btn btn-blue"
+                           data-ng-href="/vyhledat{{searchParams}}"
+                           >
+                            Vyhledat
+                        </a>
+                    </div>
+                </form>
+
+                <div class="buttons">
+                    <a href="/vyhledat" class="btn btn-blue visible-xs-inline-block">Vyhledat</a>
+                    <a href="/vlozit-inzerat" class="btn btn-blue">Vložit inzerát</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-panel hidden-xs hidden-sm">
+            <ul class="container-fluid">
+                <li>
+                    <span class="icon-bullet_ok icon"></span>
+                    <strong>45.000</strong> návštěvníků denně
+                </li>
+                <li>
+                    <span class="icon-bullet_ok icon"></span>
+                    <strong>inzerce od 99 Kč</strong> na neomezenou dobu
+                </li>
+                <li>
+                    <span class="icon-bullet_ok icon"></span>
+                    <strong>kompletní právní a finanční servis</strong>
+                </li>
+            </ul>
+        </div>
+
+        <div class="newest-records container">
+            <h2>Nejnovější inzeráty</h2>
+            <h3>prohlédněte si nabídku <strong>právě vložených nebo aktualizovaných</strong> inzerátů</h3>
+
+            <div class="matrix" data-bzr-slick='{"responsive":[{"breakpoint": 991, "settings": {"dots": true, "slidesToScroll": 3, "swipeToSlide": false}}, {"breakpoint": 1200, "settings": {"dots": true, "slidesToScroll": 4, "swipeToSlide": false}}]}'>
+                                    <a href="/nemovitosti-byty-domy/446114-nabidka-prodej-bytu-stankovskeho-celakovice" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446114/1476598121-ruwlm-20160918-134230.jpg')">
+                                                <div class="bar">
+                            <h3>Čelákovice&nbsp;</h3>
+                            <h4>
+                                Stankovského,                                 2+1, 53 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Prodej bytu 
+                            </p>
+
+                            <p class="price">
+                                2.100.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/125019-nabidka-pronajem-bytu-bohuminska-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big_nowm/data/record/images/125k/125019/0266bdde8372c015ebe32f08801a118c.jpg')">
+                                                <div class="bar">
+                            <h3>Letňany&nbsp;</h3>
+                            <h4>
+                                Bohumínská,                                 1+kk, 40 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Pronájem bytu 
+                            </p>
+
+                            <p class="price">
+                                9.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/445578-nabidka-pronajem-garaze-tulesicka-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/445k/445578/1476213127-owucq-dum.jpg')">
+                                                <div class="bar">
+                            <h3>Zličín&nbsp;</h3>
+                            <h4>
+                                Tulešická,                                 14 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Pronájem garáže 
+                            </p>
+
+                            <p class="price">
+                                1.200 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/384208-nabidka-pronajem-kancelare-jungmannova-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/384k/384208/1435905400-fkuzn-p1010368.jpg')">
+                                                <div class="bar">
+                            <h3>Nové Město&nbsp;</h3>
+                            <h4>
+                                Jungmannova,                                 15 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Pronájem kanceláře 
+                            </p>
+
+                            <p class="price">
+                                7.800 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/273014-nabidka-pronajem-kancelare-jungmannova-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big_nowm/data/record/images/273k/273014/a825771519a75a5a0f4384ce5639e1a6.jpg')">
+                                                <div class="bar">
+                            <h3>Nové Město&nbsp;</h3>
+                            <h4>
+                                Jungmannova,                                 361 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Pronájem kanceláře 
+                            </p>
+
+                            <p class="price">
+                                124.860 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/404675-nabidka-prodej-domu-dolnojircanska-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/404k/404675/1449513139-jmztg-20150614-110316.jpg')">
+                                                <div class="bar">
+                            <h3>Kamýk&nbsp;</h3>
+                            <h4>
+                                Dolnojirčanská,                                 547 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Prodej domu 
+                            </p>
+
+                            <p class="price">
+                                16.900.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/429847-nabidka-pronajem-nebytoveho-prostoru-dolnojircanska-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/429k/429847/1470035626-xbxhd-20160801-073308.jpg')">
+                                                <div class="bar">
+                            <h3>Kamýk&nbsp;</h3>
+                            <h4>
+                                Dolnojirčanská,                                 116 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Pronájem nebytového prostoru 
+                            </p>
+
+                            <p class="price">
+                                23.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/446832-nabidka-pronajem-bytu-uvoz-brno" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446832/1476995037-bpucc-pic-0040.JPG')">
+                                                <div class="bar">
+                            <h3>Brno&nbsp;</h3>
+                            <h4>
+                                Úvoz,                                 1+kk, 38 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Pronájem bytu 
+                            </p>
+
+                            <p class="price">
+                                6.500 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/446112-nabidka-pronajem-nebytoveho-prostoru-hoblikova-novy-jicin" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446112/1476597177-sndhr-nebytovy-prostor.jpg')">
+                                                <div class="bar">
+                            <h3>Nový Jičín&nbsp;</h3>
+                            <h4>
+                                Hoblíkova,                                 180 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Pronájem nebytového prostoru 
+                            </p>
+
+                            <p class="price">
+                                10.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/438876-nabidka-prodej-bytu-spanielova-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/438k/438876/1472478069-jozwa-jidelni-kout-z-obyvaciho-pokoje.jpg')">
+                                                <div class="bar">
+                            <h3>Řepy&nbsp;</h3>
+                            <h4>
+                                Španielova,                                 3+kk, 83 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Prodej bytu 
+                            </p>
+
+                            <p class="price">
+                                4.000.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/434400-nabidka-prodej-bytu-trebonska-karlovy-vary" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/434k/434400/1469551204-hdyei-img00b.JPG')">
+                                                <div class="bar">
+                            <h3>Karlovy Vary&nbsp;</h3>
+                            <h4>
+                                Třeboňská,                                 3+1, 61 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Prodej bytu 
+                            </p>
+
+                            <p class="price">
+                                1.425.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                                    <a href="/nemovitosti-byty-domy/446847-poptavka-pronajem-bytu-brno" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big_placeholder/web/img/placeholder.jpg')">
+                                                <div class="bar">
+                            <h3>&nbsp;</h3>
+                            <h4>
+                                                                Hledám 25 až 50 m²&nbsp;
+                            </h4>
+
+                            <p class="info">
+                                <span class="icon icon-logo_symbol">
+                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                </span>
+                                Hledám Pronájem bytu
+                            </p>
+
+                            <p class="price">
+                                5.000 až 9.000 Kč
+                            </p>
+                        </div>
+                    </a>
+                            </div>
+        </div>
+
+        <div class="attractive-records container" data-ng-init="homepageOffset = 12">
+            <h2>Atraktivní nabídka</h2>
+            <h3>prohlédněte si nabídku <strong>prémiových inzerátů</strong></h3>
+
+            <div class="matrix" data-bzr-slick='{"broadcast": "slick-update", "broadcastInit": "attractive-edge", "responsive":[{"breakpoint": 991, "settings": "unslick"}]}'>
+                                    <a href="/nemovitosti-byty-domy/446846-nabidka-prodej-bytu-na-slatince-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446846/1477011042-ukbcu-00.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Záběhlice&nbsp;</h3>
+                                <h4>Na Slatince, 1+kk, 39 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    2.970.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/212325-nabidka-pronajem-bytu-komenskeho-kladno" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/212k/212325/1476986207-tbtzn-20140612-153859.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Kladno&nbsp;</h3>
+                                <h4>Komenského, 1+kk, 28 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Pronájem bytu 
+                                </p>
+
+                                <p class="price">
+                                    5.700 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/414704-nabidka-prodej-bytu-kristanova-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/414k/414704/1472474761-wstdk-peg-6204.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Žižkov&nbsp;</h3>
+                                <h4>Křišťanova, 2+kk, 58 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    6.274.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/430606-nabidka-prodej-bytu-zemedelska-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/430k/430606/1467119323-uazrf-peg-6270.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Dejvice&nbsp;</h3>
+                                <h4>Zemědělská, 3+kk, 85 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    6.990.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/441379-nabidka-prodej-bytu-orelska-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/441k/441379/1475755969-zcrdx-dsc-5211.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Vršovice&nbsp;</h3>
+                                <h4>Orelská, 3+kk, 75 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    6.199.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/438852-nabidka-prodej-bytu-decinska-kladno" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/438k/438852/1472473432-jyjcd-pc090120.JPG')">
+                        
+                                                    <div class="bar">
+                                <h3>Kladno&nbsp;</h3>
+                                <h4>Děčínská, 3+kk, 68 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    2.217.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/446752-nabidka-prodej-bytu-korunovacni-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446752/1476957215-wupyh-peg-2982.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Bubeneč&nbsp;</h3>
+                                <h4>Korunovační, 4+kk, 140 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    19.419.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/446654-nabidka-prodej-domu-osvoboditelu-kromeriz" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446654/1476894843-spbdi-img-20160724-155807.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Kroměříž&nbsp;</h3>
+                                <h4>Osvoboditelů, 200 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej domu 
+                                </p>
+
+                                <p class="price">
+                                    4.700.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/446359-nabidka-prodej-bytu-koprivnicka-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446359/1476727126-dylkb-obyvaci-pokoj-s-kk.JPG')">
+                        
+                                                    <div class="bar">
+                                <h3>Letňany&nbsp;</h3>
+                                <h4>Kopřivnická, 3+kk, 76 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    3.790.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/445798-nabidka-pronajem-kancelare-wenzigova-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/445k/445798/1476352782-eeyog-fullsizerender.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Nové Město&nbsp;</h3>
+                                <h4>Wenzigova, 53 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Pronájem kanceláře 
+                                </p>
+
+                                <p class="price">
+                                    11.660 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/446431-nabidka-prodej-bytu-frostova-praha" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446431/1476780607-tjvib-img-20161016-wa0015.jpg')">
+                        
+                                                    <div class="bar">
+                                <h3>Petrovice&nbsp;</h3>
+                                <h4>Frostova, 2+kk, 78 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Prodej bytu 
+                                </p>
+
+                                <p class="price">
+                                    3.700.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                                    <a href="/nemovitosti-byty-domy/446288-nabidka-pronajem-domu-vodarenska-ostrava" class="record" style="background-image: url('https://www.bezrealitky.cz/media/cache/record_thumb_big/data/record/images/446k/446288/1476701984-bhkdq-p6200030.JPG')">
+                        
+                                                    <div class="bar">
+                                <h3>Ostrava&nbsp;</h3>
+                                <h4>Vodárenská, 470 m²&nbsp;</h4>
+
+                                <p class="info">
+                                    <span class="icon icon-logo_symbol">
+                                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                                    </span>
+                                    Pronájem domu 
+                                </p>
+
+                                <p class="price">
+                                    55.000 Kč
+                                </p>
+                            </div>
+                                            </a>
+                            </div>
+
+            <div class="text-center visible-md visible-lg">
+                <button class="btn btn-green"
+                        ladda="loadingNext" 
+                        data-style="expand-right" 
+                        data-size="xs"
+                        data-ng-click="loadNextHomepage()"
+                        data-ng-disabled="!moreItemsAvailable"
+                        data-ng-class="{'btn-green': moreItemsAvailable, 'btn-grey inactive': !moreItemsAvailable}"
+                        >
+                    {{ moreRecords || "Více nemovitostí" }}
+                </button>
+            </div>
+        </div>
+
+        <div class="service-centre container">
+            <h2>Centrum služeb</h2>
+            <h3><strong>kompletní servis</strong> při prodeji nebo pronájmu nemovitosti</h3>
+
+            <div class="services" data-bzr-slick='{"slidesToShow": 1, "responsive":[{"breakpoint": 992, "settings": "unslick"}]}'>
+                <div class="service contracts">
+                    <div class="top">
+                        <h3>Smlouvy</h3>
+                        <p class="desc">
+                            Právní služby jsou poskytovány 
+                            advokáty, kteří odpovídají za 
+                            kvalitu a odbornost v průběhu celého obchodu.
+                        </p>
+                    </div>
+
+                    <div class="bottom">
+                        <p class="price">
+                            <strong>cena od: 990 Kč</strong>
+                            <br>
+                            (vč. DPH)
+                        </p>
+
+                        <p>
+                            <a href="/centrum-sluzeb/smlouvy" class="btn btn-orange">Chci smlouvu</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service cache">
+                    <div class="top">
+                        <h3>Úschova kupní ceny</h3>
+                        <p class="desc">
+                            Vaše peníze bezpečně uschováme, 
+                            dokud nebudou splněny podmínky 
+                            převodu nemovitosti.
+                        </p>
+                    </div>
+
+                    <div class="bottom">
+                        <p class="price">
+                            <strong>cena od: 3.990 Kč</strong>
+                            <br>
+                            (vč. DPH)
+                        </p>
+
+                        <p>
+                            <a href="/centrum-sluzeb/uschova-kupni-ceny" class="btn btn-light-red">Chci úschovu</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service mortgage">
+                    <div class="top">
+                        <h3>Hypotéka</h3>
+                        <p class="desc">
+                            Potřebujete financovat nákup nemovitosti 
+                            úvěrem? Zajistíme nejvýhodnější 
+                            financování na trhu naším partnerem.
+                        </p>
+                    </div>
+
+                    <div class="bottom">
+                        <p class="price">
+                            <strong>úrok od: 1,49 %</strong>
+                            <br>
+                            &nbsp;
+                        </p>
+
+                        <p>
+                            <a href="/centrum-sluzeb/hypoteka" class="btn btn-purple">Chci hypotéku</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bzr-news container">
+            <h2>Novinky na bezrealitky.cz</h2>
+            <h3>zjistěte, co je u nás nového a <strong>na čem pracujeme</strong></h3>
+
+            <div class="items" data-bzr-slick='{"slidesToScroll": 1, "slidesToShow": 1, "responsive":[{"breakpoint": 991, "settings": {"dots": true, "slidesToScroll": 2, "slidesToShow": 2, "swipeToSlide": false}}]}'>
+                                    <div class="item">
+                        <a href="http://blog.bezrealitky.cz/inspekce-nemovitosti-pomocnik-nebo-nepritel/">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_news_mobile_nowm/data/news/images/1476779862_inspekce nemovitosti.png" alt="" title="">
+                        </a>
+                        <div class="text">
+                            <h3>Inspekce nemovitostí</h3>
+                            <p>
+                                Všechny důležité odpovědi na otázky týkající se inspekce nemovitostí. Čtěte na našem Blogu:
+                            </p>
+
+                            <a href="http://blog.bezrealitky.cz/inspekce-nemovitosti-pomocnik-nebo-nepritel/" target="_blank">celý článek<span class="caret"></span></a>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <a href="http://blog.bezrealitky.cz/jak-funguje-topovani/">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_news_mobile_nowm/data/news/images/1468504673_topování_novinky.jpg" alt="" title="">
+                        </a>
+                        <div class="text">
+                            <h3>Topování</h3>
+                            <p>
+                                Co je topování inzerátů a jak funguje? Čtěte náš Blog bezrealitky.cz :-)
+                            </p>
+
+                            <a href="http://blog.bezrealitky.cz/jak-funguje-topovani/" target="_blank">celý článek<span class="caret"></span></a>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <a href="https://blog.bezrealitky.cz/centrum-sluzeb-pomuze-s-nemovitostmi-od-a-do-z/">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_news_mobile_nowm/data/news/images/1463563301_1000x1000_CS.png" alt="" title="">
+                        </a>
+                        <div class="text">
+                            <h3>Centrum služeb</h3>
+                            <p>
+                                Potřebujete smluvní dokumentaci k prodeji Vašeho domu či řešíte inspekci nemovitostí před koupí vysněného bytu? Obraťte se na naše Centrum služeb.
+                            </p>
+
+                            <a href="https://blog.bezrealitky.cz/centrum-sluzeb-pomuze-s-nemovitostmi-od-a-do-z/" target="_blank">celý článek<span class="caret"></span></a>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <a href="https://blog.bezrealitky.cz/4-nejcastejsi-chyby-pri-vytvareni-inzeratu/">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_news_mobile_nowm/data/news/images/1465463158_4 chyby.png" alt="" title="">
+                        </a>
+                        <div class="text">
+                            <h3>4 základní pilíře úspěšné inzerce</h3>
+                            <p>
+                                Chcete být úspěšní při prodeji či pronájmu vaší nemovitosti? Myslete na 4 základní pilíře:  Popis, cena, fotografie a umístění inzerátu.
+                            </p>
+
+                            <a href="https://blog.bezrealitky.cz/4-nejcastejsi-chyby-pri-vytvareni-inzeratu/" target="_blank">celý článek<span class="caret"></span></a>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <a href="http://blog.bezrealitky.cz/jak-je-to-se-zverejnovanim-kontaktnich-udaju-u-inzeratu/">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_news_mobile_nowm/data/news/images/1471510743_Zverejnit_kontakt_Ano_Ne.png" alt="" title="">
+                        </a>
+                        <div class="text">
+                            <h3>Kontakty u inzerátů</h3>
+                            <p>
+                                Jak je to se zveřejňováním kontaktů? Čtěte na Blogu.
+                            </p>
+
+                            <a href="http://blog.bezrealitky.cz/jak-je-to-se-zverejnovanim-kontaktnich-udaju-u-inzeratu/" target="_blank">celý článek<span class="caret"></span></a>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <a href="https://blog.bezrealitky.cz/pozor-na-podvodne-inzeraty/">
+                            <img src="https://www.bezrealitky.cz/media/cache/record_thumb_news_mobile_nowm/data/news/images/1456221343_1000x1000_podvody (1).png" alt="" title="">
+                        </a>
+                        <div class="text">
+                            <h3>Pozor na podvodné inzeráty!</h3>
+                            <p>
+                                Nízká cena nájmu, posílání zálohy předem? S největší pravděpodobností se jedná o podvod!
+                            </p>
+
+                            <a href="https://blog.bezrealitky.cz/pozor-na-podvodne-inzeraty/" target="_blank">celý článek<span class="caret"></span></a>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+
+            
+    <div class="contacts-bar">
+        <div class="container">
+            <div class="row">
+                <div class="hidden-xs hidden-sm hidden-md col-lg-3">
+                    <span class="bezrealitky-logo"></span>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-lg-3">
+                    <a href="tel:+420226227522" class="no-underline">
+                        <span class="icon icon-rounded_phone">
+                            <span class="path1"></span><span class="path2"></span>
+                        </span>
+                    </a>
+                    <p>
+                        <a href="tel:+420226227522">
+                            <strong>+420 226 227 522</strong>
+                        </a>
+                        <br>
+                        <span>Po - Pá (09:00 - 17:00)</span>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-lg-3 middle">
+                    <a href="mailto:info@bezrealitky.cz" class="no-underline">
+                        <span class="icon icon-rounded_email">
+                            <span class="path1"></span><span class="path2"></span>
+                        </span>
+                    </a>
+                    <p>
+                        <strong>
+                            <a href="mailto:info@bezrealitky.cz">
+                                info@bezrealitky.cz
+                            </a>
+                        </strong>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-lg-3 links">
+                    <a href="https://twitter.com/bezrealitky_cz" class="icon icon-rounded_twitter" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                    <a href="https://www.facebook.com/bezrealitky" class="icon icon-rounded_facebook" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                    <a href="http://blog.bezrealitky.cz" class="icon icon-rounded_blog" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCCu_54Bu2YvqndTUZXPflzw" class="icon icon-rounded_youtube" target="_blank">
+                        <span class="path1"></span><span class="path2"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <h2>O NÁS</h2>
+                    <ul>
+                        <li><a href="/informace/o-nas">Kdo jsme</a></li>
+                        <li><a href="https://blog.bezrealitky.cz/">Náš blog</a></li>
+                        <li><a href="/informace/overeny-uzivatel">Ověřený uživatel</a></li>
+                        <li><a href="https://www.id-sign.com/projekty/bezrealitky">Vytvořeno v iD-SIGN</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h2>PRO INZERENTY</h2>
+                    <ul>
+                        <li><a href="/vlozit-inzerat">Vložit inzerát</a></li>
+                        <li><a href="/informace/cenik-sluzeb">Ceník služeb</a></li>
+                        <li><a href="/informace/realitni-pruvodci">Realitní průvodci</a></li>
+                        <li><a href="/informace/smluvni-podminky">Smluvní podmínky</a></li>
+                        <li><a href="/informace/vzorove-smlouvy">Vzorové smlouvy</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h2>CENTRUM SLUŽEB</h2>
+                    <ul>
+                        <li><a href="/centrum-sluzeb/smlouvy">Smlouvy</a></li>
+                        <li><a href="/centrum-sluzeb/uschova-kupni-ceny">Úschova kupní ceny</a></li>
+                        <li><a href="/centrum-sluzeb/hypoteka">Hypotéka</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="partners container">
+        <img src="/img/loga/radio-sumava.png" alt="">
+        <img src="/img/loga/radio-city.png" alt="">
+        <img src="/img/loga/radio-fajn.png" alt="">
+        <img src="/img/loga/radio-hitradio.png" alt="">
+        <img src="/img/loga/radio-blanik.png" alt="">
+        <img src="/img/loga/living-cz.png" alt="">
+    </div>
+
+    <div class="current-device-type"></div>
+    <div class="current-display-size"></div>
+
+    <div class="eu-cookies ng-hide" data-ng-show="showedEuCookies">
+        Tyto stránky používají cookies. Setrváním na stránce souhlasíte s jejich používáním.
+        <a href data-ng-click="acceptEuCookies()">V pořádku</a>
+        <a href="https://www.google.com/policies/technologies/cookies/" target="_blank">Více</a>
+    </div>
+
+    <div class="popup" id="popup-login" data-ng-class="{'show':showedLoginPopup}">
+    <form>
+        <div class="header">
+            <button type="button" class="close" aria-label="Close" data-ng-click="hideLoginPopup()"><span aria-hidden="true">&times;</span></button>
+            <h2>Vítejte na bezrealitky.cz</h2>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                Nemáte u nás svůj účet? <a href="" data-ng-click="showRegistrationPopup()">ZAREGISTRUJTE SE</a>
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                <input type="text" name="login" class="form-control" placeholder="Zadejte svojí emailovou adresu" data-ng-model="userLogin.login" />
+                <input type="password" name="password" class="form-control" placeholder="Zadejte své heslo" data-ng-model="userLogin.password" />
+                <a href="" data-ng-click="showForgetPopup()">Zapomněli jste své heslo?</a>
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-1">
+                <input type="checkbox" name="conditions" data-ng-model="userLogin.conditions" id="login-conditions"/>
+            </div>
+
+            <div class="col-xs-11">
+                <label for="login-conditions" class="required">
+                    Souhlasím se <a href="/informace/smluvni-podminky" target="_blank">smluvními podmínkami</a>.
+                </label>
+            </div>
+
+            <div class="col-xs-1">
+                <input type="checkbox" name="broker" data-ng-model="userLogin.broker"  id="login-broker" />
+            </div>
+
+            <div class="col-xs-11">
+                <label for="login-broker" class="required">
+                    Nejsem realitní makléř ani jiný realitní zprostředkovatel. Pokud je mé prohlášení nepravdivé, může mi být udělena pokuta dle smluvních podmínek.
+                </label>
+            </div>
+
+            <div class="col-xs-11 col-xs-offset-1">
+                <p class="error-text" data-ng-show="errorsPopupLogin">{{errorsPopupLogin}}</p>
+                <a href="" class="btn btn-primary" data-ng-click="loginUser();" data-ladda="loadingUserLogin">PŘIHLÁSIT SE</a>
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                Nebo se přihlaste pomocí mojeID - <a href="/init-moje-id-registration" target="_blank">založit mojeID</a>
+                <br><br>
+                <a href="/moje-id-login" data-bzr-login-terms="userLogin" data-bzr-login-terms-error="errorsPopupLogin" class="btn btn-mojeid">mojeID</a>
+            </div>
+        </div>
+    </form>
+</div>    <div class="popup" id="popup-registration" data-ng-class="{'show': showedRegistrationPopup}">
+    <form name="userRegistrationForm" novalidate>
+        <div class="header">
+            <button type="button" class="close" aria-label="Close" data-ng-click="hideLoginPopup()"><span aria-hidden="true">&times;</span></button>
+            <h2>Vytvořte si svůj účet</h2>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                Máte u nás již svůj účet? <a href="" data-ng-click="showLoginPopup()">PŘIHLASTE SE</a>
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                <select name="type" data-ng-model="userRegistration.type" class="form-control">
+                    <option value="fyzicka">Fyzická osoba</option>
+                    <option value="pravnicka">Právnická osoba</option>
+                </select>
+                <span class="error-text" data-ng-show="(userRegistrationForm.type.$error.required && showedErrorsPopupUserRegistration)">Typ osoby je povinné pole</span>
+            </div>
+
+            <div class="col-xs-12" data-ng-if="userRegistration.type === 'pravnicka'">
+                <input type="text" name="company_ic" placeholder="IČ" class="form-control half" data-ng-model="userRegistration.companyIc" required/>
+                    <span class="link" data-ng-if="userRegistration.companyIc">
+                        <a href="" data-ng-click="getAres()" data-ladda="loadingAres">Doplnit údaje z registru dle IČ</a>
+                    </span>
+                <span class="error-text" data-ng-show="(userRegistrationForm.company_ic.$error.required && showedErrorsPopupUserRegistration)">IČ je u právnické osoby povinné pole</span>
+                <input type="text" name="company_dic" class="form-control half" placeholder="DIČ" data-ng-model="userRegistration.companyDic" />
+            </div>
+
+            <div class="col-xs-12" data-ng-if="userRegistration.type === 'pravnicka'">
+                <input type="text" name="company_name" class="form-control" placeholder="Název právnické osoby" data-ng-model="userRegistration.companyName" required/>
+                <span class="error-text" data-ng-show="(userRegistrationForm.company_name.$error.required && showedErrorsPopupUserRegistration)">Název právnické osoby je povinné pole</span>
+                <select name="company_type" class="form-control" data-ng-model="userRegistration.companyType" required>
+                    <option value="" disabled="disabled">Vyberte typ právnické osoby</option>
+                                            <option value="obce-a-mesta">Obce a města</option>
+                                            <option value="sprava-nemovitosti">Správa nemovitostí</option>
+                                            <option value="bytove-druzstvo">Bytové družstvo</option>
+                                            <option value="cirkev">Církev</option>
+                                            <option value="neziskova-organizace">Nezisková organizace</option>
+                                            <option value="spolecenstvi-vlastniku-jednotek">Společenství vlastníků jednotek</option>
+                                            <option value="stavebni-spolecnost">Stavební společnost</option>
+                                            <option value="ostatni">Ostatní</option>
+                                    </select>
+                <span class="error-text" data-ng-show="(userRegistrationForm.company_type.$error.required && showedErrorsPopupUserRegistration)">Typ právnické osoby je povinné pole</span>
+            </div>
+
+            <div class="col-xs-12">
+                <input type="text" name="name" class="form-control" placeholder="Vaše jméno" data-ng-model="userRegistration.name" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.name.$error.required && showedErrorsPopupUserRegistration)">Jméno je povinné pole</span>
+                <input type="text" name="surname" class="form-control" placeholder="Vaše příjmení" data-ng-model="userRegistration.surname" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.surname.$error.required && showedErrorsPopupUserRegistration)">Přijmení je povinné pole</span>
+                <input type="tel" 
+                       name="phone" 
+                       required 
+                       pattern="[0-9 -()]{9,14}"
+                       class="form-control" 
+                       data-bzr-intl-phone="userRegistration.phonePrefix" 
+                       data-phone-country="userRegistration.phoneCountry"
+                       data-form="userRegistrationForm"
+                       data-ng-model="userRegistration.phone" 
+                       />
+                <span class="error-text" data-ng-show="(userRegistrationForm.phone.$invalid && showedErrorsPopupUserRegistration)">Telefon ve správném formátu je povinné pole</span>
+                <input type="text" name="address" class="form-control" placeholder="Vaše adresa" data-ng-model="userRegistration.address" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.address.$error.required && showedErrorsPopupUserRegistration)">Adresa je povinné pole</span>
+                <input type="email" name="email" class="form-control" placeholder="Váš email" data-ng-model="userRegistration.email" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.email.$invalid && showedErrorsPopupUserRegistration)">Musíte zadat svůj e-mail ve správném formátu</span>
+                <input type="password" name="password" class="form-control" placeholder="Vaše heslo" data-ng-model="userRegistration.password" required />
+                <span class="error-text" data-ng-show="(userRegistrationForm.password.$error.required && showedErrorsPopupUserRegistration)">Heslo je povinné pole</span>
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-1">
+                <input type="checkbox" name="conditions" data-ng-model="userRegistration.conditions" id="registration-conditions"/>
+            </div>
+
+            <div class="col-xs-11">
+                <label for="registration-conditions" class="required">
+                    Souhlasím se <a href="/informace/smluvni-podminky" target="_blank">smluvními podmínkami</a>.
+                </label>
+            </div>
+
+            <div class="col-xs-1">
+                <input type="checkbox" name="broker" data-ng-model="userRegistration.broker"  id="registration-broker" />
+            </div>
+
+            <div class="col-xs-11">
+                <label for="registration-broker" class="required">
+                    Nejsem realitní makléř ani jiný realitní zprostředkovatel. Pokud je mé prohlášení nepravdivé, může mi být udělena pokuta dle smluvních podmínek.
+                </label>
+            </div>
+
+            <div class="col-xs-11 col-xs-offset-1">
+                <span class="error-text" data-ng-show="(userRegistrationError && showedErrorsPopupUserRegistration)">{{userRegistrationError}}</span>
+                <a href="" class="btn btn-primary" data-ng-click="registrationUser(userRegistrationForm.$valid)" data-ladda="loadingUserRegistration">ZAREGISTRUJTE SE</a>
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                Nebo se přihlaste pomocí mojeID - <a href="/init-moje-id-registration" target="_blank">založit mojeID</a>
+                <br><br>
+                <a href="/moje-id-login"
+                   data-bzr-login-terms="userRegistration"
+                   data-bzr-login-terms-error="userRegistrationError"
+                   data-bzr-login-terms-show-error="showedErrorsPopupUserRegistration"
+                   class="btn btn-mojeid">
+                    mojeID
+                </a>
+            </div>
+        </div>
+    </form>
+</div>    <div class="popup" id="popup-forget-password" data-ng-class="{'show':showedForgetPopup}">
+    <form>
+        <div class="header">
+            <button type="button" class="close" aria-label="Close" data-ng-click="hideLoginPopup()"><span aria-hidden="true">&times;</span></button>
+            <h2>Zapomenuté heslo</h2>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                Nemáte u nás svůj účet? <a href="" data-ng-click="showRegistrationPopup()">ZAREGISTRUJTE SE</a>
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                Uveďte váš registrační email, na který vám zašleme pokyny pro změnu hesla.
+            </div>
+            <div class="col-xs-12">
+                <br>
+                <input type="text" name="login" class="form-control" placeholder="Zadejte svojí emailovou adresu" data-ng-model="userForget.email" />
+            </div>
+        </div>
+
+        <div class="row body">
+            <div class="col-xs-12">
+                <span class="error-text" data-ng-show="errorsPopupForget">{{ errorsPopupForget}}</span>
+                <a href="" class="btn btn-primary" data-ng-click="forgetPassword();" data-ladda="loadingUserForget">ODESLAT</a>
+            </div>
+        </div>
+
+    </form>
+</div>
+    <div class="popup-overlay" data-ng-class="{'show': showedPopup}"></div>
+
+    <script type="text/javascript">
+    </script>
+
+    <script type="text/javascript">
+        var BZR_URL_BASE = "/";
+        function myUrl(path) {
+            return BZR_URL_BASE + path;
+        }
+    </script>
+
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = "2e4762c79fad32bc0dcde80507236508d61737bc";
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () {
+                o._.push(arguments);
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = '//www.smartsuppchat.com/loader.js';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 958262858;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/958262858/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var seznam_retargeting_id = 12293;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//c.imedia.cz/js/retargeting.js"></script>
+
+     
+        <!-- iBILLBOARD Ad Server one2many code -->
+        <!-- HowTo: All the ad codes must be above this code! -->
+        <!-- HowTo: It is good idea to place this code just below the last ad code. -->
+        <script type='text/javascript' charset='utf-8' src='https://go.eu.bbelements.com/bb/bb_one2n.js'></script>
+        <script type='text/javascript'>/* <![CDATA[ */
+            var bbkeywords = ''; //fill in: 'key1;key2;..'
+            bmone2n.addPosition('23932.1.1.1', '', 'this', 'class=visible', '', 'display:none');
+            bmone2n.getAd('go.eu.bbelements.com', bbkeywords, '' + (typeof (bburlparam) === 'string' ? '&' + bburlparam : ''), 'utf-8');
+            /* ]]> */</script>
+        <div id='bmone2t-23932.1.1.1' style='display:none'><script type='text/javascript'>/* <![CDATA[ */ bmone2n.makeAd('23932.1.1.1'); /* ]]> */</script></div>
+        <script type='text/javascript'>/* <![CDATA[ */ bmone2n.moveAd(); /* ]]> */</script>
+    </body>
+</html>
+
