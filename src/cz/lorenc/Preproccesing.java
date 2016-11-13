@@ -18,61 +18,90 @@ public class Preproccesing {
         UserAgent userAgent = new UserAgent();         //create new userAgent (headless browser)
         String baseUrl = "";
         List<ReviewPreproccesing> reviewPreproccesingList = new ArrayList<>();
+        List<String> terms = new ArrayList<>();
+        List<String> termsPlus = new ArrayList<>();
+        List<String> termsMinus = new ArrayList<>();
         try {
             for (int i = 0; i < reviews.size(); i++) {
                 Review review = reviews.get(i);
 
                 if(!baseUrl.equals(review.getUrl().substring(0,review.getUrl().indexOf(".cz")))){
+                    if(terms.size() > 0){
+                        reviewPreproccesingList.add(new ReviewPreproccesing(baseUrl,terms,review.getRating(),termsPlus,termsMinus));
+                    }
+
                     baseUrl = review.getUrl().substring(0,review.getUrl().indexOf(".cz"));
-                    System.out.println("///////////////////////////////////");
-                    System.out.println(baseUrl);
-                    System.out.println("///////////////////////////////////");
+                    //System.out.println("///////////////////////////////////");
+                    //System.out.println(baseUrl);
+                    //System.out.println("///////////////////////////////////");
+                    terms = new ArrayList<>();
+                    termsPlus = new ArrayList<>();
+                    termsMinus = new ArrayList<>();
                 }
-                System.out.println("=====");
+//                System.out.println("=====");
 
 
-                System.out.println(review.getReview());
-                review.getPlus().forEach(System.out::println);
-                review.getMinus().forEach(System.out::println);
-                System.out.println("=====");
+//                System.out.println(review.getReview());
+//                review.getPlus().forEach(System.out::println);
+//                review.getMinus().forEach(System.out::println);
+//                System.out.println("=====");
 
-                List<String> terms = new ArrayList<>();
 
                 // TODO: 13.11.16 Make regex for filter only work containing aplhabet
                 // Process review
+                List<String> finalTerms = new ArrayList<>();
                 if (review.getReview().length() > 0) {
-                    userAgent.sendPOST(PREPROCCESING_URL, review.getReview());
-                    userAgent.json.findEach("token").forEach(t -> terms.add(t.toString()));
+                    try {
+                        userAgent.sendPOST(PREPROCCESING_URL, review.getReview());
+                    } catch (ResponseException e) {
+                        System.out.println("ERROR:" + review.getReview());
+                        continue;
+                    }
+                    userAgent.json.findEach("token").forEach(t -> finalTerms.add(t.toString()));
                 }
 
-                List<String> termsPlus = new ArrayList<>();
                 //Process plus
+                List<String> finalTermsPlus = new ArrayList<>();
                 for (int j = 0; j < review.getPlus().size(); j++) {
                     if(review.getPlus().get(j).length() == 0){
                         continue;
                     }
-                    userAgent.sendPOST(PREPROCCESING_URL, review.getPlus().get(j));
-                    userAgent.json.findEach("token").forEach(t -> termsPlus.add(t.toString()));
+                    try {
+                        userAgent.sendPOST(PREPROCCESING_URL, review.getPlus().get(j));
+                    } catch (ResponseException e) {
+                        System.out.println("ERROR:" + review.getPlus().get(j));
+                        continue;
+                    }
+                    userAgent.json.findEach("token").forEach(t -> finalTermsPlus.add(t.toString()));
                 }
 
-                List<String> termsMinus = new ArrayList<>();
                 //Process minus
+                List<String> finalTermsMinus = new ArrayList<>();
                 for (int j = 0; j < review.getMinus().size(); j++) {
                     if(review.getMinus().get(j).length() == 0){
                         continue;
                     }
-                    userAgent.sendPOST(PREPROCCESING_URL, review.getMinus().get(j));
-                    userAgent.json.findEach("token").forEach(t -> termsMinus.add(t.toString()));
+                    try {
+                        userAgent.sendPOST(PREPROCCESING_URL, review.getMinus().get(j));
+                    } catch (ResponseException e) {
+                        System.out.println("ERROR:" + review.getMinus().get(j));
+                        continue;
+                    }
+                    userAgent.json.findEach("token").forEach(t -> finalTermsMinus.add(t.toString()));
                 }
 
-                reviewPreproccesingList.add(new ReviewPreproccesing(baseUrl,terms,review.getRating(),termsPlus,termsMinus));
-
-                terms.forEach(System.out::println);
+                for (String finalTerm : finalTerms) {
+                    terms.add(finalTerm);
+                }
+                for (String finalTerm : finalTermsPlus) {
+                    termsPlus.add(finalTerm);
+                }
+                for (String finalTerm : finalTermsMinus) {
+                    termsMinus.add(finalTerm);
+                }
             }
 
-        } catch (ResponseException e) {
-            e.printStackTrace();
-        } catch (NotFound notFound) {
+        }  catch (NotFound notFound) {
             notFound.printStackTrace();
         }
         return reviewPreproccesingList;

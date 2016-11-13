@@ -20,7 +20,8 @@ import java.util.stream.Stream;
 public class JSONHelper {
 
     public static String FILE_DESTINATION = "file.json";
-    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess.json";
+//    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess.json";
+    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess_category.json";
 
     public void addReview(List<Review> value) {
 
