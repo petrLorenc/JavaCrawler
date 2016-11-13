@@ -20,26 +20,12 @@ import java.util.stream.Stream;
 public class JSONHelper {
 
     public static String FILE_DESTINATION = "file.json";
+    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess.json";
 
     public void addReview(List<Review> value) {
 
-//        JSONObject obj = new JSONObject();
-//        obj.put("Url", value.getUrl());
-//        obj.put("Review", value.getReview());
-//        obj.put("Rating", value.getRating());
-//
-//        obj.put("Plus", new JSONArray().addAll(value.getPlus()));
-//        obj.put("Minus", new JSONArray().addAll(value.getPlus()));
-//
-//        try (FileWriter file = new FileWriter(FILE_DESTINATION, true)) {
-//            file.write(obj.toJSONString());
-//        }
-
         Gson gson = new GsonBuilder().create();
         try (Writer writer = new OutputStreamWriter(new FileOutputStream(FILE_DESTINATION) , "UTF-8")) {
-//            JSONArray array =  new JSONArray();
-//            writer.write(array.toJSONString());
-
             writer.write("[");
             //writer.write(gson.toJson(value, Review.class));
             for (int i = 0; i < value.size(); i++) {
@@ -53,10 +39,25 @@ public class JSONHelper {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //JsonElement json = gson.fromJson(new FileReader("file.json"), JsonElement.class);
-        //json.getAsJsonArray().add(gson.toJson(value, Review.class));
-        //gson.toJson(value, new FileWriter("file.json",true));
+    }
 
+    public void addReviewPreprocces(List<ReviewPreproccesing> value) {
+
+        Gson gson = new GsonBuilder().create();
+        try (Writer writer = new OutputStreamWriter(new FileOutputStream(FILE_DESTINATION_PREPROCCES) , "UTF-8")) {
+            writer.write("[");
+            //writer.write(gson.toJson(value, Review.class));
+            for (int i = 0; i < value.size(); i++) {
+                gson.toJson(value.get(i), ReviewPreproccesing.class, writer);
+                if (i != value.size() - 1) {
+                    writer.write(",");
+                }
+            }
+            writer.write("]");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public List<Review> getReviews() {
