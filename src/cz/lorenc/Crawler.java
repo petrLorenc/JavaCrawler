@@ -1,15 +1,18 @@
 package cz.lorenc;
 
 import com.jaunt.*;
+import com.jaunt.Elements;
 import org.jsoup.Jsoup;
+import org.jsoup.select.*;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -42,13 +45,19 @@ public class Crawler {
         org.jsoup.nodes.Document doc = null;
         try {
             doc = Jsoup.connect(url).get();
-            org.jsoup.select.Elements newsHeadlines = doc.select(".revtext");
+            org.jsoup.select.Elements newsHeadlines = doc.select(".review");
             for (org.jsoup.nodes.Element element : newsHeadlines) {
                 String ratingText = element.select("big").text();
                 String reviewText = element.select("p").text();
 
                 List<String> plus = new ArrayList<>();
                 List<String> minus = new ArrayList<>();
+
+                int usefulReview = 0;
+                int uselessReview = 0;
+
+                String date;
+                String shop;
 
 //                    System.out.println("PLUS");
                 for (org.jsoup.nodes.Element e : element.select(".plus > ul >li")) {
@@ -58,7 +67,37 @@ public class Crawler {
                 for (org.jsoup.nodes.Element e : element.select(".minus > ul > li")) {
                     minus.add(e.text());
                 }
-                reviews.add(new Review(url, reviewText, ratingText, plus, minus));
+
+                Pattern p = Pattern.compile("[Ano|Ne].+(\\d).*");
+
+                org.jsoup.select.Elements e = element.select(".evalreview > li:nth-child(2)");
+                Matcher m = p.matcher(e.text());
+
+                if(m.find()){
+                    usefulReview = Integer.parseInt(m.group(1));
+                }
+
+                org.jsoup.select.Elements e2 = element.select(".evalreview > li:nth-child(3)");
+                m = p.matcher(e2.text());
+
+                if(m.find()){
+                    uselessReview = Integer.parseInt(m.group(1));
+                }
+
+                org.jsoup.select.Elements e3 = element.select(".date");
+
+                if(!e3.text().contains("2016")){
+                    Calendar cal=Calendar.getInstance();
+                    DateFormat formatData = new SimpleDateFormat("d. MMMM yyyy");
+                    date = formatData.format(cal.getTime());
+                } else {
+                    date = e3.text().substring(9);
+                }
+
+                org.jsoup.select.Elements e4 = element.select(".purchased > a");
+                shop = e4.text();
+
+                reviews.add(new Review(url, reviewText, ratingText, plus, minus, usefulReview, uselessReview, date, shop));
             }
 
         } catch (IOException e) {

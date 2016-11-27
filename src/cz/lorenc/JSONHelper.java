@@ -61,6 +61,19 @@ public class JSONHelper {
         }
     }
 
+    public List<ReviewPreproccesing> getReviewPreprocces(String file){
+        Gson gson = new GsonBuilder().create();
+        List<ReviewPreproccesing> reviews = null;
+
+        try (FileReader reader = new FileReader(file)) {
+            reviews = Stream.of(gson.fromJson(reader, ReviewPreproccesing[].class)).collect(Collectors.<ReviewPreproccesing>toList());
+        } catch (IOException e) {
+            e.printStackTrace();
+            return new ArrayList<>();
+        }
+        return reviews;
+    }
+
     public List<Review> getReviews() {
 
         Gson gson = new GsonBuilder().create();

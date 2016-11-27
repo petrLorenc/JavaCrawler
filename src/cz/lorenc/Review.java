@@ -11,13 +11,21 @@ public class Review {
     private String rating;
     private List<String> plus;
     private List<String> minus;
+    private int usefulReview;
+    private int uselessReview;
+    private String date;
+    private String nameShop;
 
-    public Review(String url, String review, String rating, List<String> plus, List<String> minus) {
+    public Review(String url, String review, String rating, List<String> plus, List<String> minus, int usefulReview, int uselessReview, String date, String nameShop) {
         this.url = url;
         this.review = review;
         this.rating = rating;
         this.plus = plus;
         this.minus = minus;
+        this.usefulReview = usefulReview;
+        this.uselessReview = uselessReview;
+        this.date = date;
+        this.nameShop = nameShop;
     }
 
     public String getUrl() {
@@ -60,13 +68,50 @@ public class Review {
         return minus;
     }
 
+    public int getUsefulReview() {
+        return usefulReview;
+    }
+
+    public void setUsefulReview(int usefulReview) {
+        this.usefulReview = usefulReview;
+    }
+
+    public int getUselessReview() {
+        return uselessReview;
+    }
+
+    public void setUselessReview(int uselessReview) {
+        this.uselessReview = uselessReview;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getNameShop() {
+        return nameShop;
+    }
+
+    public void setNameShop(String nameShop) {
+        this.nameShop = nameShop;
+    }
+
     @Override
     public String toString() {
         return "Review{" +
-                "review='" + review + '\'' +
+                "url='" + url + '\'' +
+                ", review='" + review + '\'' +
                 ", rating='" + rating + '\'' +
                 ", plus=" + plus +
                 ", minus=" + minus +
+                ", usefulReview=" + usefulReview +
+                ", uselessReview=" + uselessReview +
+                ", date='" + date + '\'' +
+                ", nameShop='" + nameShop + '\'' +
                 '}';
     }
 }

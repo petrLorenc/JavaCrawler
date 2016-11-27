@@ -1,5 +1,8 @@
 package cz.lorenc.TfIdfTable;
 
+import cz.lorenc.ReviewPreproccesing;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,7 +31,24 @@ public class TFIDFCalculator {
         return Math.log(docs.size() / n);
     }
 
-    public double tfIdf(List<String> doc, List<List<String>> docs, String term) {
+    private double tfIdf(List<String> doc, List<List<String>> docs, String term) {
         return tf(doc, term) * idf(docs, term);
+    }
+
+    public TFIDFResult tfIdf(ReviewPreproccesing doc, List<ReviewPreproccesing> docs, String term){
+        List<List<String>> reviews = new ArrayList<>();
+        List<List<String>> pluses = new ArrayList<>();
+        List<List<String>> minuses = new ArrayList<>();
+
+        for (ReviewPreproccesing review : docs) {
+            reviews.add(review.getReview());
+            pluses.add(review.getPlus());
+            minuses.add(review.getMinus());
+        }
+
+        return new TFIDFResult(term,
+                tfIdf(doc.getReview(),reviews,term),
+                tfIdf(doc.getPlus(),pluses,term),
+                tfIdf(doc.getMinus(),minuses,term));
     }
 }
