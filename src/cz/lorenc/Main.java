@@ -7,22 +7,29 @@ import com.sun.deploy.net.HttpResponse;
 import cz.lorenc.TfIdfTable.TFIDFCalculator;
 import sun.net.www.http.HttpClient;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 
-    public static final String END_URL = " ";
-    public static final String BEGIN_URL = "http://mobilni-telefony.heureka.cz/";
-    public static final String URL = "http://mobilni-telefony.heureka.cz/";
-
-
     public static void main(String[] args) {
-        Crawler crawler = new Crawler("http://heureka.cz/", ".heureka.cz");
+        Crawler crawler = new Crawler();
+        JSONHelper jsonHelper = new JSONHelper();
+        List<Review> allReview = new ArrayList<>();
 
-        System.out.println(crawler.getReviewsForModel("http://mobilni-telefony.heureka.cz/apple-iphone-5s-16gb/recenze/").toString());
-//        JSONHelper jsonHelper = new JSONHelper();
+        try {
+            crawler.crawl("http://mobilni-telefony.heureka.cz/", 0);
+            allReview = crawler.getUrlsReview().stream().map(crawler::getReviewsForModel).flatMap(List::stream).collect(Collectors.toList());
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        jsonHelper.addReview(allReview);
+
         //List<Review> list = crawler.doCrawling();
-        //jsonHelper.addReview(list);
 //
 //        List<Review> reviews = jsonHelper.getReviews();
 //

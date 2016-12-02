@@ -19,7 +19,7 @@ import java.util.stream.Stream;
  */
 public class JSONHelper {
 
-    public static String FILE_DESTINATION = "file.json";
+    public static String FILE_DESTINATION = "file_new.json";
 //    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess.json";
     public static String FILE_DESTINATION_PREPROCCES = "file_preprocess_category.json";
 
