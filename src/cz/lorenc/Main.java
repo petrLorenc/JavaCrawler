@@ -1,9 +1,11 @@
 package cz.lorenc;
 
 import com.jaunt.Document;
+import com.jaunt.NotFound;
 import com.jaunt.ResponseException;
 import com.jaunt.UserAgent;
 import com.sun.deploy.net.HttpResponse;
+import com.sun.deploy.trace.Trace;
 import cz.lorenc.TfIdfTable.TFIDFCalculator;
 import org.jsoup.Jsoup;
 import sun.net.www.http.HttpClient;
@@ -28,11 +30,9 @@ public class Main {
 
         //END OF CRAWLING PART
 
-        try {
-            System.out.println(Jsoup.connect("https://translate.googleapis.com/translate_a/single?client=gtx&sl=cs&tl=en&dt=t&q=dumc").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36").ignoreContentType(true).execute().body());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        System.out.println(Translator.translate("kolo"));
+        System.out.println(Translator.translate("auto"));
+        System.out.println(Translator.translate("moto"));
 
         //List<Review> list = crawler.doCrawling();
 //
