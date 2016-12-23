@@ -5,6 +5,7 @@ import com.jaunt.ResponseException;
 import com.jaunt.UserAgent;
 import com.sun.deploy.net.HttpResponse;
 import cz.lorenc.TfIdfTable.TFIDFCalculator;
+import org.jsoup.Jsoup;
 import sun.net.www.http.HttpClient;
 
 import java.io.IOException;
@@ -15,19 +16,23 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) {
-        Crawler crawler = new Crawler();
-        JSONHelper jsonHelper = new JSONHelper();
-        List<Review> allReview = new ArrayList<>();
+        //CRAWLING PART
+//        Crawler crawler = new Crawler();
+//        JSONHelper jsonHelper = new JSONHelper();
+//        List<Review> allReview = new ArrayList<>();
+//
+//        crawler.crawl("http://heureka.cz/", 0);
+//        allReview = crawler.getUrlsReview().stream().map(crawler::getReviewsForModel).flatMap(List::stream).collect(Collectors.toList());
+//
+//        jsonHelper.addReview(allReview);
+
+        //END OF CRAWLING PART
 
         try {
-            crawler.crawl("http://mobilni-telefony.heureka.cz/", 0);
-            allReview = crawler.getUrlsReview().stream().map(crawler::getReviewsForModel).flatMap(List::stream).collect(Collectors.toList());
-
+            System.out.println(Jsoup.connect("https://translate.googleapis.com/translate_a/single?client=gtx&sl=cs&tl=en&dt=t&q=dumc").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36").ignoreContentType(true).execute().body());
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        jsonHelper.addReview(allReview);
 
         //List<Review> list = crawler.doCrawling();
 //

@@ -11,6 +11,10 @@ public class ReviewPreproccesing {
     private String rating;
     private List<String> plus;
     private List<String> minus;
+    private int usefulReview;
+    private int uselessReview;
+    private String date;
+    private String nameShop;
 
     public ReviewPreproccesing(String url, List<String> review, String rating, List<String> plus, List<String> minus) {
         this.url = url;

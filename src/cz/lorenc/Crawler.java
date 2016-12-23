@@ -23,7 +23,7 @@ import java.util.stream.Stream;
  */
 public class Crawler {
 
-    private int limitOfAddress = 5000;
+    private int limitOfAddress = 500000;
 
 
     public Set<String> getUrlsReview() {
@@ -102,38 +102,51 @@ public class Crawler {
         return reviews;
     }
 
-    private static final Pattern FilterAdd = Pattern.compile("^http://(.*mobilni.*|.*notebook.*|.*monitor.*|klavesnice.*|tiskarny.*" +
-            "|.*tablet.*|.*gps.*|.*tele.*|.*foto.*|.*digi.*|.*brasny.*|.*tv.*|.*tele.*|.*3D.*|proj.*|drony.*|.*pocitac.*" +
-            "|graficke.*|.*mys.*|.*komponent.*|.*pamet.*|.*procesor.*|.*zdroj.*|.*disk.*|.*karty.*|.*software.*|.*aplikace.*" +
-            "|.*system.*|.*vide.*)\\.heureka\\.cz/.*/recenze/$");
-    private static final Pattern FilterCrawl = Pattern.compile("^http://(.*mobilni.*|.*notebook.*|.*monitor.*|klavesnice.*|tiskarny.*" +
-            "|.*tablet.*|.*gps.*|.*tele.*|.*foto.*|.*digi.*|.*brasny.*|.*tv.*|.*tele.*|.*3D.*|proj.*|drony.*|.*pocitac.*" +
-            "|graficke.*|.*mys.*|.*komponent.*|.*pamet.*|.*procesor.*|.*zdroj.*|.*disk.*|.*karty.*|.*software.*|.*aplikace.*" +
-            "|.*system.*|.*vide.*)\\.heureka\\.cz/[^f].*/$");
+//    private static final Pattern FilterAdd = Pattern.compile("^http://(.*mobilni.*|.*notebook.*|.*monitor.*|klavesnice.*|tiskarny.*" +
+//            "|.*tablet.*|.*gps.*|.*tele.*|.*foto.*|.*digi.*|.*brasny.*|.*tv.*|.*tele.*|.*3D.*|proj.*|drony.*|.*pocitac.*" +
+//            "|graficke.*|.*mys.*|.*komponent.*|.*pamet.*|.*procesor.*|.*zdroj.*|.*disk.*|.*karty.*|.*software.*|.*aplikace.*" +
+//            "|.*system.*|.*vide.*)\\.heureka\\.cz/.*/recenze/$");
+//    private static final Pattern FilterCrawl = Pattern.compile("^http://(.*mobilni.*|.*notebook.*|.*monitor.*|klavesnice.*|tiskarny.*" +
+//            "|.*tablet.*|.*gps.*|.*tele.*|.*foto.*|.*digi.*|.*brasny.*|.*tv.*|.*tele.*|.*3D.*|proj.*|drony.*|.*pocitac.*" +
+//            "|graficke.*|.*mys.*|.*komponent.*|.*pamet.*|.*procesor.*|.*zdroj.*|.*disk.*|.*karty.*|.*software.*|.*aplikace.*" +
+//            "|.*system.*|.*vide.*)\\.heureka\\.cz/($|[^f]{1,}).*");
+
+    private static final Pattern FilterAdd = Pattern.compile("^http://.*heureka.cz/.*/recenze/$");
+    private static final Pattern FilterCrawl = Pattern.compile("^http://.*heureka.cz/.*");
 
     private Set<String> urlsReview = new HashSet<>();
     private Set<String> urls = new HashSet<>();
 
 
-    public void crawl(String url, int level) throws IOException {
+    public void crawl(String url, int level){
         urls.add(url);
-        Document doc = Jsoup.connect(url).get();
+        Document doc = null;
+        try {
+            doc = Jsoup.connect(url).get();
+        } catch (IOException e) {
+            System.out.println("ERROR: This url " + url + " causes:");
+            System.out.println(e);
+            return;
+        }
         Elements links = doc.select("a");
 
         for (Element link : links) {
             String foundUrl = link.attr("abs:href").toLowerCase();
 
-            if(urlsReview.size() > limitOfAddress || level > 10){
+            if(urlsReview.size() > limitOfAddress || level > 25){
                 return;
             }
 
-            if (FilterAdd.matcher(foundUrl).matches() && !urlsReview.contains(foundUrl)) {
+            if (FilterAdd.matcher(foundUrl).matches() && urlsReview.add(foundUrl)) {
                 System.out.println("Adding: " + foundUrl);
-                urlsReview.add(foundUrl);
             } else if (FilterCrawl.matcher(foundUrl).matches() && !urls.contains(foundUrl)) {
+                if(foundUrl.contains("obchody") || foundUrl.contains("f:")){
+                    return;
+                }
                 System.out.println("Crawling: " + foundUrl);
-                urls.add(foundUrl);
                 crawl(foundUrl, ++level);
+            } else {
+                System.out.println("NOT ADDING " + foundUrl);
             }
         }
     }
