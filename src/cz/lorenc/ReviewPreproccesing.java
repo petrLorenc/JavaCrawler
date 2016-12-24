@@ -8,7 +8,7 @@ import java.util.List;
 public class ReviewPreproccesing {
     private String url;
     private List<String> review;
-    private String rating;
+    private int rating;
     private List<String> plus;
     private List<String> minus;
     private int usefulReview;
@@ -16,12 +16,16 @@ public class ReviewPreproccesing {
     private String date;
     private String nameShop;
 
-    public ReviewPreproccesing(String url, List<String> review, String rating, List<String> plus, List<String> minus) {
+    public ReviewPreproccesing(String url, List<String> review, int rating, List<String> plus, List<String> minus, int usefulReview, int uselessReview, String date, String nameShop) {
         this.url = url;
         this.review = review;
         this.rating = rating;
         this.plus = plus;
         this.minus = minus;
+        this.usefulReview = usefulReview;
+        this.uselessReview = uselessReview;
+        this.date = date;
+        this.nameShop = nameShop;
     }
 
     public String getUrl() {
@@ -36,7 +40,7 @@ public class ReviewPreproccesing {
         this.review = review;
     }
 
-    public void setRating(String rating) {
+    public void setRating(int rating) {
         this.rating = rating;
     }
 
@@ -52,7 +56,7 @@ public class ReviewPreproccesing {
         return review;
     }
 
-    public String getRating() {
+    public int getRating() {
         return rating;
     }
 

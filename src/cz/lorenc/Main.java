@@ -30,17 +30,17 @@ public class Main {
 
         //END OF CRAWLING PART
 
-        System.out.println(Translator.translate("kolo"));
-        System.out.println(Translator.translate("auto"));
-        System.out.println(Translator.translate("moto"));
+//        System.out.println(Translator.translate("kolo"));
+//        System.out.println(Translator.translate("auto"));
+//        System.out.println(Translator.translate("moto"));
 
-        //List<Review> list = crawler.doCrawling();
-//
-//        List<Review> reviews = jsonHelper.getReviews();
-//
-//        Preproccesing preproccesing = new Preproccesing();
-//        List<ReviewPreproccesing> preproccesingList = preproccesing.doPreproccesing(reviews);
-//        jsonHelper.addReviewPreprocces(preproccesingList);
+
+        JSONHelper jsonHelper = new JSONHelper();
+        List<Review> reviews = jsonHelper.getReviews();
+        Preproccesing preproccesing = new Preproccesing();
+        List<ReviewPreproccesing> preproccesingList = preproccesing.doPreproccesing(reviews);
+        jsonHelper.addReviewPreprocces(preproccesingList);
+
 
 //        List<ReviewPreproccesing> documents = jsonHelper.getReviewPreprocces(JSONHelper.FILE_DESTINATION_PREPROCCES);
 //

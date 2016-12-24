@@ -21,11 +21,11 @@ public class JSONHelper {
 
     public static String FILE_DESTINATION = "file_new.json";
 //    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess.json";
-    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess_category.json";
+    public static String FILE_DESTINATION_PREPROCCES = "file_new_stopwords_token.json";
 
     public void addReview(List<Review> value) {
 
-        Gson gson = new GsonBuilder().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (Writer writer = new OutputStreamWriter(new FileOutputStream(FILE_DESTINATION) , "UTF-8")) {
             writer.write("[");
             //writer.write(gson.toJson(value, Review.class));
@@ -44,7 +44,7 @@ public class JSONHelper {
 
     public void addReviewPreprocces(List<ReviewPreproccesing> value) {
 
-        Gson gson = new GsonBuilder().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (Writer writer = new OutputStreamWriter(new FileOutputStream(FILE_DESTINATION_PREPROCCES) , "UTF-8")) {
             writer.write("[");
             //writer.write(gson.toJson(value, Review.class));
@@ -62,7 +62,7 @@ public class JSONHelper {
     }
 
     public List<ReviewPreproccesing> getReviewPreprocces(String file){
-        Gson gson = new GsonBuilder().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         List<ReviewPreproccesing> reviews = null;
 
         try (FileReader reader = new FileReader(file)) {
@@ -76,7 +76,7 @@ public class JSONHelper {
 
     public List<Review> getReviews() {
 
-        Gson gson = new GsonBuilder().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         List<Review> reviews = null;
 
         try (FileReader reader = new FileReader(FILE_DESTINATION)) {

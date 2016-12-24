@@ -1,5 +1,7 @@
 package cz.lorenc;
 
+import java.io.IOException;
+import java.text.ParseException;
 import java.util.List;
 
 /**
@@ -56,8 +58,12 @@ public class Review {
         return review;
     }
 
-    public String getRating() {
-        return rating;
+    public int getRating() {
+        try {
+            return Integer.parseInt(rating.substring(rating.contains("%") ? 0 : rating.indexOf("%")));
+        } catch (NumberFormatException | StringIndexOutOfBoundsException e){
+            return 0;
+        }
     }
 
     public List<String> getPlus() {
