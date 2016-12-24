@@ -24,9 +24,13 @@ public class JSONHelper {
     public static String FILE_DESTINATION_PREPROCCES = "file_new_stopwords_token.json";
 
     public void addReview(List<Review> value) {
+        addReview(value, FILE_DESTINATION);
+    }
+
+    public void addReview(List<Review> value, String nameOfFile) {
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (Writer writer = new OutputStreamWriter(new FileOutputStream(FILE_DESTINATION) , "UTF-8")) {
+        try (Writer writer = new OutputStreamWriter(new FileOutputStream(nameOfFile) , "UTF-8")) {
             writer.write("[");
             //writer.write(gson.toJson(value, Review.class));
             for (int i = 0; i < value.size(); i++) {
@@ -43,11 +47,13 @@ public class JSONHelper {
     }
 
     public void addReviewPreprocces(List<ReviewPreproccesing> value) {
+        addReviewPreprocces(value,FILE_DESTINATION_PREPROCCES);
+    }
 
+    public void addReviewPreprocces(List<ReviewPreproccesing> value, String nameOfFolder) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (Writer writer = new OutputStreamWriter(new FileOutputStream(FILE_DESTINATION_PREPROCCES) , "UTF-8")) {
+        try (Writer writer = new OutputStreamWriter(new FileOutputStream(nameOfFolder) , "UTF-8")) {
             writer.write("[");
-            //writer.write(gson.toJson(value, Review.class));
             for (int i = 0; i < value.size(); i++) {
                 gson.toJson(value.get(i), ReviewPreproccesing.class, writer);
                 if (i != value.size() - 1) {

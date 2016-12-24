@@ -66,6 +66,10 @@ public class Review {
         }
     }
 
+    public String getRatingString() {
+        return this.rating;
+    }
+
     public List<String> getPlus() {
         return plus;
     }

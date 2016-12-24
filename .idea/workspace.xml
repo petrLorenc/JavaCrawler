@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d26db9c-7371-4ede-9d35-53964c7ed535" name="Default" comment="JSON init">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jaunt1/Jaunt 1.2.2 Monthly Edition Licensing Agreement.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jaunt1/Jaunt 1.2.2 Release Notes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jaunt1/jaunt1.2.2.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jaunt1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jaunt1_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Review.class" afterPath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Review.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/JSONHelper.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/JSONHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/Main.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/Preproccesing.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/Preproccesing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/Review.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/Review.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/ReviewPreproccesing.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/ReviewPreproccesing.java" />
     </list>
     <ignored path="JavaCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,9 +43,13 @@
       <file leaf-file-name="JSONHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/lorenc/JSONHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="442">
+              <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+              <folding>
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#3118#3126#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,11 +57,23 @@
       <file leaf-file-name="Review.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Review.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="63" column="72" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
+            <state relative-caret-position="347">
+              <caret line="68" column="33" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json_translated.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/json_translated.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13560">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,8 +81,8 @@
       <file leaf-file-name="file_new_stopwords_token.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file_new_stopwords_token.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -86,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preproccesing.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Preproccesing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Preproccesing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+            <state relative-caret-position="457">
+              <caret line="107" column="69" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -99,8 +111,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="248">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -160,11 +172,11 @@
         <option value="$PROJECT_DIR$/file_new.json" />
         <option value="$PROJECT_DIR$/src/cz/lorenc/Crawler.java" />
         <option value="$PROJECT_DIR$/src/cz/lorenc/Translator.java" />
-        <option value="$PROJECT_DIR$/src/cz/lorenc/Main.java" />
         <option value="$PROJECT_DIR$/src/cz/lorenc/ReviewPreproccesing.java" />
+        <option value="$PROJECT_DIR$/src/cz/lorenc/Main.java" />
+        <option value="$PROJECT_DIR$/src/cz/lorenc/JSONHelper.java" />
         <option value="$PROJECT_DIR$/src/cz/lorenc/Review.java" />
         <option value="$PROJECT_DIR$/src/cz/lorenc/Preproccesing.java" />
-        <option value="$PROJECT_DIR$/src/cz/lorenc/JSONHelper.java" />
       </list>
     </option>
   </component>
@@ -826,7 +838,7 @@
       <workItem from="1482178394176" duration="2559000" />
       <workItem from="1482318944178" duration="6864000" />
       <workItem from="1482436725848" duration="2667000" />
-      <workItem from="1482563112737" duration="2582000" />
+      <workItem from="1482563112737" duration="6049000" />
     </task>
     <task id="LOCAL-00001" summary="JSON init">
       <created>1479020396166</created>
@@ -867,7 +879,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50109000" />
+    <option name="totallyTimeSpent" value="53576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="1440" height="830" extended-state="0" />
@@ -875,14 +887,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32587063" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561308" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4305177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25107297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -999,7 +1011,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#3118#3126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,7 +1074,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#3118#3126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,22 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="124" column="42" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/lorenc/ReviewPreproccesing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
@@ -1127,36 +1131,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Review.java">
+    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="63" column="72" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="124" column="42" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file_new_stopwords_token.json">
+    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/lorenc/JSONHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
+        <state relative-caret-position="442">
+          <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#3118#3126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_new_stopwords_token.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Preproccesing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        <state relative-caret-position="457">
+          <caret line="107" column="69" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_translated.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13560">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

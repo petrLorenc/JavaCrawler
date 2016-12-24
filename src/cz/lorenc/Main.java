@@ -38,8 +38,8 @@ public class Main {
         JSONHelper jsonHelper = new JSONHelper();
         List<Review> reviews = jsonHelper.getReviews();
         Preproccesing preproccesing = new Preproccesing();
-        List<ReviewPreproccesing> preproccesingList = preproccesing.doPreproccesing(reviews);
-        jsonHelper.addReviewPreprocces(preproccesingList);
+        List<Review> preproccesingList = preproccesing.doTranslate(reviews);
+        jsonHelper.addReview(preproccesingList, "json_translated.json");
 
 
 //        List<ReviewPreproccesing> documents = jsonHelper.getReviewPreprocces(JSONHelper.FILE_DESTINATION_PREPROCCES);

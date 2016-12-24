@@ -80,4 +80,37 @@ public class Preproccesing {
         }
         return reviewPreproccesingList;
     }
+
+
+    public List<Review> doTranslate(List<Review> reviews) {
+        List<Review> reviewPreproccesingList = new ArrayList<>();
+
+        for (int i = 0; i < reviews.size(); i++) {
+            Review review = reviews.get(i);
+            String reviewText;
+            List<String> termsPlus = new ArrayList<>();
+            List<String> termsMinus = new ArrayList<>();
+
+            reviewText = Translator.translate(review.getReview());
+            for(String line : review.getPlus()){
+                String plus = Translator.translate(line);
+                termsPlus.add(plus);
+            }
+            for(String line : review.getMinus()){
+                String minus = Translator.translate(line);
+                termsPlus.add(minus);
+            }
+
+            System.out.println("original: " + review.getReview());
+            System.out.println("reviewText: " + reviewText);
+
+            reviewPreproccesingList.add(new Review(
+                    review.getUrl(),reviewText,review.getRatingString(),termsPlus,termsMinus,
+                    review.getUsefulReview(),review.getUselessReview(),
+                    review.getDate(),review.getNameShop()));
+        }
+
+
+        return reviewPreproccesingList;
+    }
 }
