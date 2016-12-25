@@ -35,13 +35,12 @@ public class Main {
 //        System.out.println(Translator.translate("moto"));
 
 //
-//        JSONHelper jsonHelper = new JSONHelper();
-//        List<Review> reviews = jsonHelper.getReviews(JSONHelper.FILE_TRANSLATED_DESTINATION);
-//        Preproccesing preproccesing = new Preproccesing();
-//        List<Review> preproccesingList = preproccesing.doTranslate(reviews);
-//        jsonHelper.addReview(preproccesingList, "json_translated.json");
+        JSONHelper jsonHelper = new JSONHelper();
+        List<Review> reviews = jsonHelper.getReviews(JSONHelper.FILE_DESTINATION);
+        Preproccesing preproccesing = new Preproccesing();
+        List<Review> preproccesingList = preproccesing.doTranslate(reviews);
+        jsonHelper.addReview(preproccesingList, JSONHelper.FILE_TRANSLATED_DESTINATION);
 
-        Translator.translate("Vypadají pěkně. Ještě nebyl sníh, tak jsme nevyzkoušeli");
 
 //        JSONHelper jsonHelper = new JSONHelper();
 //        List<Review> reviews = jsonHelper.getReviews(JSONHelper.FILE_TRANSLATED_DESTINATION);

@@ -42,7 +42,7 @@ public class Translator {
                 if(matcher.find()){
                    answer = matcher.group();
                 }
-                System.out.println(answer);
+                //System.out.println(answer);
                 translatedStrings.add(answer);
             }
 

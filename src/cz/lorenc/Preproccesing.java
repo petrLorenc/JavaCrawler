@@ -98,13 +98,13 @@ public class Preproccesing {
             List<String> termsPlus = new ArrayList<>();
             List<String> termsMinus = new ArrayList<>();
 
-            reviewText = Translator.translate(review.getReview()).stream().collect(Collectors.joining(". "));
+            reviewText = Translator.translate(review.getReview()).stream().collect(Collectors.joining(" "));
             for (String line : review.getPlus()) {
-                String plus = Translator.translate(line).stream().collect(Collectors.joining(". "));
+                String plus = Translator.translate(line).stream().collect(Collectors.joining(" "));
                 termsPlus.add(plus);
             }
             for (String line : review.getMinus()) {
-                String minus = Translator.translate(line).stream().collect(Collectors.joining(". "));
+                String minus = Translator.translate(line).stream().collect(Collectors.joining(" "));
                 termsMinus.add(minus);
             }
 
