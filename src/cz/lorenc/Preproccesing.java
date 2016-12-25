@@ -6,15 +6,22 @@ import com.jaunt.UserAgent;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 /**
  * Created by petr.lorenc on 13.11.16.
  */
 public class Preproccesing {
 
-    private final String PREPROCCESING_URL = "http://127.0.0.1:9200/i/_analyze?analyzer=cestina_hunspell&pretty=true";
+    public static final String PREPROCCESING_URL = "http://127.0.0.1:9200/i/_analyze?analyzer=cestina_hunspell&pretty=true";
+    public static final String PREPROCCESING_URL_ENG = "http://127.0.0.1:9200/eng/_analyze?analyzer=english_hunspell&pretty=true";
 
     public List<ReviewPreproccesing> doPreproccesing(List<Review> reviews) {
+        return doPreproccesing(reviews, PREPROCCESING_URL);
+    }
+
+    public List<ReviewPreproccesing> doPreproccesing(List<Review> reviews, String url) {
         UserAgent userAgent = new UserAgent();         //create new userAgent (headless browser)
         String baseUrl = "";
         List<ReviewPreproccesing> reviewPreproccesingList = new ArrayList<>();
@@ -31,7 +38,7 @@ public class Preproccesing {
                 List<String> finalTerms = new ArrayList<>();
                 if (review.getReview().length() > 0) {
                     try {
-                        userAgent.sendPOST(PREPROCCESING_URL, review.getReview());
+                        userAgent.sendPOST(url, review.getReview());
                     } catch (ResponseException e) {
                         System.out.println("ERROR:" + review.getReview());
                         continue;
@@ -46,7 +53,7 @@ public class Preproccesing {
                         continue;
                     }
                     try {
-                        userAgent.sendPOST(PREPROCCESING_URL, review.getPlus().get(j));
+                        userAgent.sendPOST(url, review.getPlus().get(j));
                     } catch (ResponseException e) {
                         System.out.println("ERROR:" + review.getPlus().get(j));
                         continue;
@@ -61,7 +68,7 @@ public class Preproccesing {
                         continue;
                     }
                     try {
-                        userAgent.sendPOST(PREPROCCESING_URL, review.getMinus().get(j));
+                        userAgent.sendPOST(url, review.getMinus().get(j));
                     } catch (ResponseException e) {
                         System.out.println("ERROR:" + review.getMinus().get(j));
                         continue;
@@ -70,9 +77,9 @@ public class Preproccesing {
                 }
 
                 reviewPreproccesingList.add(new ReviewPreproccesing(
-                        review.getUrl(),finalTerms,review.getRating(),finalTermsPlus,finalTermsMinus,
-                        review.getUsefulReview(),review.getUselessReview(),
-                        review.getDate(),review.getNameShop()));
+                        review.getUrl(), finalTerms, review.getRating(), finalTermsPlus, finalTermsMinus,
+                        review.getUsefulReview(), review.getUselessReview(),
+                        review.getDate(), review.getNameShop()));
             }
 
         } catch (NotFound notFound) {
@@ -91,23 +98,23 @@ public class Preproccesing {
             List<String> termsPlus = new ArrayList<>();
             List<String> termsMinus = new ArrayList<>();
 
-            reviewText = Translator.translate(review.getReview());
-            for(String line : review.getPlus()){
-                String plus = Translator.translate(line);
+            reviewText = Translator.translate(review.getReview()).stream().collect(Collectors.joining(". "));
+            for (String line : review.getPlus()) {
+                String plus = Translator.translate(line).stream().collect(Collectors.joining(". "));
                 termsPlus.add(plus);
             }
-            for(String line : review.getMinus()){
-                String minus = Translator.translate(line);
-                termsPlus.add(minus);
+            for (String line : review.getMinus()) {
+                String minus = Translator.translate(line).stream().collect(Collectors.joining(". "));
+                termsMinus.add(minus);
             }
 
             System.out.println("original: " + review.getReview());
             System.out.println("reviewText: " + reviewText);
 
             reviewPreproccesingList.add(new Review(
-                    review.getUrl(),reviewText,review.getRatingString(),termsPlus,termsMinus,
-                    review.getUsefulReview(),review.getUselessReview(),
-                    review.getDate(),review.getNameShop()));
+                    review.getUrl(), reviewText, review.getRatingString(), termsPlus, termsMinus,
+                    review.getUsefulReview(), review.getUselessReview(),
+                    review.getDate(), review.getNameShop()));
         }
 
 

@@ -20,6 +20,7 @@ import java.util.stream.Stream;
 public class JSONHelper {
 
     public static String FILE_DESTINATION = "file_new.json";
+    public static String FILE_TRANSLATED_DESTINATION = "json_translated.json";
 //    public static String FILE_DESTINATION_PREPROCCES = "file_preprocess.json";
     public static String FILE_DESTINATION_PREPROCCES = "file_new_stopwords_token.json";
 
@@ -80,12 +81,12 @@ public class JSONHelper {
         return reviews;
     }
 
-    public List<Review> getReviews() {
+    public List<Review> getReviews(String filePath) {
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         List<Review> reviews = null;
 
-        try (FileReader reader = new FileReader(FILE_DESTINATION)) {
+        try (FileReader reader = new FileReader(filePath)) {
             reviews = Stream.of(gson.fromJson(reader, Review[].class)).collect(Collectors.<Review>toList());
         } catch (IOException e) {
             e.printStackTrace();
