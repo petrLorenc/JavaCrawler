@@ -1,13 +1,17 @@
 package cz.lorenc;
 
 import com.jaunt.UserAgent;
+import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 import org.jsoup.*;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.*;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -34,7 +38,7 @@ public class Crawler {
         this.urlsReview = urlsReview;
     }
 
-    public List<Review> getReviewsForModel(String url) {
+    public static List<Review> getReviewsForModel(String url) {
         List<Review> reviews = new ArrayList<Review>();
         org.jsoup.nodes.Document doc = null;
         try {
@@ -152,75 +156,45 @@ public class Crawler {
     }
 
 
-//    public List<Review> doCrawling() {
-//        List<Review> reviews = new ArrayList<>();
-//        Set<String> newUrls = processLeftMenu();
-//        Set<String> newUrls2 = new HashSet<>();
-//        boolean evenRun = true;
-//        do {
-//            if (evenRun) {
-//                for (String possibleWay : newUrls) {
-//                    newUrls2.addAll(getNewUrls(possibleWay));
-//                }
-//            } else {
-//                for (String possibleWay : newUrls2) {
-//                    newUrls.addAll(getNewUrls(possibleWay));
-//                }
-//            }
-//            evenRun = !evenRun;
-//        } while (reviewUrls.size() <= limitOfAddress);
-//
-//        for (String url : reviewUrls) {
-//            reviews.addAll(getReviewsForModel(url));
-//        }
-//        return reviews;
-//        //return reviewUrls.stream().map(this::getReviewForModel).collect(Collectors.toList());
-//    }
-//
-//    //--------------------PRIVATE-----------------------
-//
-//    private boolean addUrl(String url) {
-//        if (url.contains(optimizingUrl) && !url.contains(".pdf") && !url.contains("https") && !url.contains("blog")) {
-//            if (url.endsWith("recenze/")) {
-//                reviewUrls.add(url);
-//            }
-//            return urls.add(url);
-//        }
-//        return false;
-//    }
+    /**
+     *
+     * @param url URL of base page in format http://xxx.com (without ending /)
+     * @return
+     */
+    public ArrayList<String> getRobotAllowedPages(String url){
+        // Retrieve host's disallow list from cache.
+        ArrayList<String> disallowList = new ArrayList<>();
 
-//    private Set<String> processLeftMenu() {
-//        Set<String> newUrls = new HashSet<>();
-//        try {
-//            userAgent.visit(this.baseUrl);
-//            Elements links = userAgent.doc.findEvery("<div class=left>").findEvery("<a href>");
-//            for (Element elem : links) {
-//                String link = elem.getAt("href");
-//                if (addUrl(link)) {
-//                    newUrls.add(link);
-//                }
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return newUrls;
-//    }
-//
-//    private Set<String> getNewUrls(String urlToExplore) {
-//        System.out.println("Exploring " + urlToExplore);
-//        Set<String> newUrls = new HashSet<>();
-//        try {
-//            userAgent.visit(urlToExplore);
-//            Elements links = userAgent.doc.findEvery("<span class=review-count>").findEvery("<a href>");
-//            for (Element elem : links) {
-//                String link = elem.getAt("href");
-//                if (addUrl(link)) {
-//                    newUrls.add(link);
-//                }
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return newUrls;
-//    }
+
+        try(BufferedReader in = new BufferedReader(
+                new InputStreamReader(new URL(url + "/robots.txt").openStream()))) {
+            boolean agent = false;
+            String line;
+            while((line = in.readLine()) != null) {
+                if(line.contains("User-agent:") && (line.contains("bot") || line.contains("*"))){
+                    agent = true;
+                } else if (line.contains("User-agent:")){
+                    agent = false;
+                }
+
+                if(agent) {
+                    String disallowPath = line.substring("Disallow:".length());
+
+                    int commentIndex = disallowPath.indexOf("#"); // comments
+                    if (commentIndex != -1) {
+                        disallowPath = disallowPath.substring(0, commentIndex);
+                    }
+
+                    disallowPath = disallowPath.trim();
+
+                    disallowList.add(disallowPath);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("No robots.txt file");
+        }
+
+      return disallowList;
+    }
 }
