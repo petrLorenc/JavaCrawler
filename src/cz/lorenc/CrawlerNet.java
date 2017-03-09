@@ -17,8 +17,14 @@ import java.util.regex.Pattern;
  */
 public class CrawlerNet extends WebCrawler {
 
-    private final static Pattern FILTERS = Pattern.compile(".*(\\.(css|js|gif|jpg"
-            + "|png|mp3|mp3|zip|gz))$");
+    private final static Pattern FILTERS = Pattern.compile(".*(\\.(css|js|gif|jpg|png|mp3|mp3|zip|gz))$");
+
+    private final static Pattern ROBOTS = Pattern.compile(".*/f:.*:.*");
+
+    private final static Pattern ROBOTS2 = Pattern.compile("/direct/mapa/.*");
+    private final static Pattern ROBOTS3 = Pattern.compile("/direct/ajax/.*");
+    private final static Pattern ROBOTS4 = Pattern.compile("/exit/.*");
+    private final static Pattern ROBOTS5 = Pattern.compile("/direct/js/.*");
 
     /**
      * This method receives two parameters. The first parameter is the page
@@ -33,8 +39,15 @@ public class CrawlerNet extends WebCrawler {
     @Override
     public boolean shouldVisit(Page referringPage, WebURL url) {
         String href = url.getURL().toLowerCase();
-        logger.info(href);
-        return href.contains(".heureka.cz");
+        boolean status = href.contains(".heureka.cz") &&
+                !FILTERS.matcher(href).find() &&
+                !ROBOTS.matcher(href).find() &&
+                !ROBOTS2.matcher(href).find() &&
+                !ROBOTS3.matcher(href).find() &&
+                !ROBOTS4.matcher(href).find() &&
+                !ROBOTS5.matcher(href).find();
+        logger.info(href + " -> " + status);
+        return status;
     }
 
     /**
