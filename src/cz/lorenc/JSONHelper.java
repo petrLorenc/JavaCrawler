@@ -47,39 +47,6 @@ public class JSONHelper {
         }
     }
 
-    public void addReviewPreprocces(List<ReviewPreproccesing> value) {
-        addReviewPreprocces(value,FILE_DESTINATION_PREPROCCES);
-    }
-
-    public void addReviewPreprocces(List<ReviewPreproccesing> value, String nameOfFolder) {
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (Writer writer = new OutputStreamWriter(new FileOutputStream(nameOfFolder) , "UTF-8")) {
-            writer.write("[");
-            for (int i = 0; i < value.size(); i++) {
-                gson.toJson(value.get(i), ReviewPreproccesing.class, writer);
-                if (i != value.size() - 1) {
-                    writer.write(",");
-                }
-            }
-            writer.write("]");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public List<ReviewPreproccesing> getReviewPreprocces(String file){
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        List<ReviewPreproccesing> reviews = null;
-
-        try (FileReader reader = new FileReader(file)) {
-            reviews = Stream.of(gson.fromJson(reader, ReviewPreproccesing[].class)).collect(Collectors.<ReviewPreproccesing>toList());
-        } catch (IOException e) {
-            e.printStackTrace();
-            return new ArrayList<>();
-        }
-        return reviews;
-    }
 
     public List<Review> getReviews(String filePath) {
 
