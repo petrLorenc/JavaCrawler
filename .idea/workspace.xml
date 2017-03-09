@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d26db9c-7371-4ede-9d35-53964c7ed535" name="Default" comment="tokenizator of translated words">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cz/lorenc/CrawlerNet.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file_preprocess.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file_preprocess_category.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/formatted.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cz/lorenc/Preproccesing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cz/lorenc/ReviewPreproccesing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cz/lorenc/TfIdfTable/TFIDFCalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cz/lorenc/TfIdfTable/TFIDFResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cz/lorenc/Translator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cz/lorenc/tokens/Token.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cz/lorenc/tokens/Tokens.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Crawler.class" afterPath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Crawler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaCrawler/cz/lorenc/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCrawler.iml" afterPath="$PROJECT_DIR$/JavaCrawler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/Crawler.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/Crawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/Main.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/lorenc/CrawlerNet.java" afterPath="$PROJECT_DIR$/src/cz/lorenc/CrawlerNet.java" />
     </list>
     <ignored path="JavaCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +53,7 @@
       <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="1305">
               <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="64" />
               <folding />
             </state>
@@ -80,8 +63,8 @@
       <file leaf-file-name="CrawlerNet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cz/lorenc/CrawlerNet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="467">
+              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +85,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="345">
               <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -170,8 +153,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="1440" />
+    <option name="y" value="-112" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -198,8 +183,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +224,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -785,7 +770,9 @@
       <workItem from="1482652088977" duration="3725000" />
       <workItem from="1483355525472" duration="20000" />
       <workItem from="1488553151034" duration="2343000" />
-      <workItem from="1488801217891" duration="1721000" />
+      <workItem from="1488801217891" duration="1779000" />
+      <workItem from="1488964152240" duration="1118000" />
+      <workItem from="1489043495732" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="JSON init">
       <created>1479020396166</created>
@@ -826,10 +813,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62041000" />
+    <option name="totallyTimeSpent" value="63858000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1440" y="-112" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -839,12 +826,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42910448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4288618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1172,16 +1159,16 @@
     <entry file="file://$PROJECT_DIR$/src/cz/lorenc/ReviewPreproccesing.java" />
     <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="1305">
           <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/CrawlerNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="467">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1196,10 +1183,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/CrawlerNet.java">
+    <entry file="file://$PROJECT_DIR$/src/cz/lorenc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="345">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

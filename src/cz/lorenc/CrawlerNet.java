@@ -34,7 +34,7 @@ public class CrawlerNet extends WebCrawler {
     public boolean shouldVisit(Page referringPage, WebURL url) {
         String href = url.getURL().toLowerCase();
         logger.info(href);
-        return href.startsWith("https://www.heureka.cz");
+        return href.contains(".heureka.cz");
     }
 
     /**
@@ -73,7 +73,7 @@ public class CrawlerNet extends WebCrawler {
      * Be polite: Make sure that we don't send more than 1 request per
      * second (1000 milliseconds between requests).
      */
-        config.setPolitenessDelay(1000);
+        config.setPolitenessDelay(100);
 
     /*
      * You can set the maximum crawl depth here. The default value is -1 for
@@ -124,7 +124,7 @@ public class CrawlerNet extends WebCrawler {
      * URLs that are fetched and then the crawler starts following links
      * which are found in these pages
      */
-        controller.addSeed("https://www.heureka.cz/");
+        controller.addSeed("https://telekomunikace.heureka.cz/");
 
     /*
      * Start the crawl. This is a blocking operation, meaning that your code
